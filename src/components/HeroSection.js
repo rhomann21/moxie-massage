@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './Button';
 import './HeroSection.css';
+import '../App.css';
 
 function HeroSection() {
     return (
@@ -14,7 +15,7 @@ function HeroSection() {
                 buttonSize='btn--lrg'>
                     Book Today
                 </Button>
-        
+                
             </div>
         </div>
     )
