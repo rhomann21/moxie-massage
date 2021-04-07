@@ -1,3 +1,8 @@
+@font-face {
+    src: url(../Fonts/HoneyScript-Light.ttf);
+    font-family: HoneyScript-Light;
+}
+
 .hero-container {
     background: url('/src/images/bckgrnd-test.jpg') center center/cover no-repeat;
     height: 100vh;
@@ -10,15 +15,18 @@
     justify-content: center;
 }
 
-.hero-containter > h1 {
+.hero-container > h1 {
     color: #8fd0b4;
-    font-size: 100px;
+    font-family: HoneyScript-Light;
+    font-size: 150px;
     margin-top: -100px;
+
 }
 
 .hero-container > p {
     margin-top: 8px;
     color: #fff;
+    -webkit-text-stroke: 1px black;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
