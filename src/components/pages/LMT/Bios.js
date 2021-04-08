@@ -1,6 +1,11 @@
-import React from 'react';
-import '../../App.css';
+import React, { Component } from 'react'
 
-export default function Products() {
-    return <h1 className='products'>Products</h1>;
+export default class Bios extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
 }

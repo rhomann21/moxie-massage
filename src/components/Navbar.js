@@ -30,8 +30,8 @@ function Navbar() {
        <nav className="navbar">
         <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                MOXIE MASSAGE
-            </Link>
+                M <img src='https://hosting.photobucket.com/images/i/rhomann21/star.png?width=285&height=175&crop=fill'/>  M
+             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
@@ -57,7 +57,7 @@ function Navbar() {
                     </Link>
                 </li>
             </ul>
-           {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
+          {/*} {button && <Button buttonStyle='btn--outline'>Sign Up</Button>} */}
         </div>
        </nav>
     </>

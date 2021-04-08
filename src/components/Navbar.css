@@ -24,7 +24,6 @@
   }
 
   .navbar-logo {
-    font-family: HoneyScript-Light;
     color:  #8fd0b4;
     justify-self: start;
     margin-left: 20px;
@@ -33,6 +32,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    font-family: HoneyScript-Light;
   }
   
   .fa-typo3 {
