@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class Bios extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+
+function Bio() {
+  return (
+    <div className='bio-container'>
+        <h1>Test </h1>
+    </div>
+  );
 }
+
+export default Bio;

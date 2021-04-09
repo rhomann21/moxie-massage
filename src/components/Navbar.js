@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
-
+import star from '../images/star.svg';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
        <nav className="navbar">
         <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                M <img src='https://hosting.photobucket.com/images/i/rhomann21/star.png?width=285&height=175&crop=fill'/>  M
+                M <img src={star} width='5%' height='5%'/>  M
              </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
