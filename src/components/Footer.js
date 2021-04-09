@@ -63,7 +63,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='https://www.facebook.com/MoxieBacktini/'
               target='_blank'
               aria-label='Facebook'
             >

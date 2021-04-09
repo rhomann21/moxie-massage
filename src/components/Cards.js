@@ -1,6 +1,12 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import yoga from '../images/yoga.jpg';
+//import product from '../images/products.jpg';
+import hotstone from '../images/hotstone.jpg';
+import oilmassage from '../images/oilmassage.jpg';
+import products2 from '../images/products2.jpg';
+import handsback from '../images/handsback.jpg';
 
 function Cards() {
   return (
@@ -10,13 +16,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='../images/products.jpg'
+              src={products2}
               text='Products'
               label='Products'
               path='/Products'
             />
             <CardItem
-              src='../images/yoga.jpg'
+              src={yoga}
               text='Socially distanced yoga'
               label='Yoga'
               path='/yoga'
@@ -24,19 +30,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='../images/hotstone.jpg'
+              src={hotstone}
               text='Try out our luxurious hot stone massage'
               label='Hotstone'
               path='/services'
             />
             <CardItem
-              src='../images/oilmassage.jpg'
+              src={oilmassage}
               text='Looking for the perfect gift?'
               label='Gift'
               path='/products'
             />
             <CardItem
-              src='../images/products.jpg'
+              src={handsback}
               text='Sign up for our loyalty program'
               label='Loyalty'
               path='/sign-up'
