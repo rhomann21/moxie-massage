@@ -5,6 +5,11 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+@font-face {
+  src: url(./Fonts/HoneyScript-Light.ttf);
+  font-family: HoneyScript-Light;
+}
+
 .home,
 .services,
 .products,

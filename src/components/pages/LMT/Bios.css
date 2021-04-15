@@ -4,7 +4,20 @@
   }
   
   h1 {
-    text-align: center;
+    color: #8fd0b4;
+    font-family: HoneyScript-Light;
+    font-size: 120px;
+    margin-top: 0rem;
+    text-shadow: 4px 4px black;
+  }
+
+  h2 {
+    color: black;
+    font-size: 25px;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   
   .bio__container {
@@ -18,11 +31,20 @@
   
   .bio__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 100px 0 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
   
   .bio__items {
+    display: flex;
     margin-bottom: 24px;
+    width: 200%;
+    align-items: center;
+    justify-content: center;
+
   }
   
   .bio__item {
@@ -30,6 +52,8 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
   }
   
   .bio__item__link {
@@ -56,7 +80,7 @@
     animation-duration: 2s;
   }
   
-  .bio__item__pic-wrap::after {
+  /* .bio__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -68,7 +92,7 @@
     color: #fff;
     background-color: #8fd0b4;
     box-sizing: border-box;
-  }
+  } */
   
   .bio__item__img {
     position: absolute;

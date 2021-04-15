@@ -1,7 +1,3 @@
-@font-face {
-    src: url(../Fonts/HoneyScript-Light.ttf);
-    font-family: HoneyScript-Light;
-}
 
 .hero-container {
     background: url('/src/images/bckgrnd-test.jpg') center center/cover no-repeat;
