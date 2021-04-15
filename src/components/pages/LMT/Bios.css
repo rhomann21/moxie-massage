@@ -12,12 +12,12 @@
   }
 
   h2 {
-    color: black;
-    font-size: 25px;
-    margin-top: 1rem;
-    align-items: center;
-    justify-content: center;
+    color:black;
+    font-size: 2rem;
+    margin-top: .5rem;
     display: flex;
+    justify-content: center;
+    text-align: center;
   }
   
   .bio__container {
@@ -32,19 +32,10 @@
   .bio__wrapper {
     position: relative;
     margin: 100px 0 45px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
   }
   
   .bio__items {
-    display: flex;
     margin-bottom: 24px;
-    width: 200%;
-    align-items: center;
-    justify-content: center;
-
   }
   
   .bio__item {
@@ -52,8 +43,6 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
   }
   
   .bio__item__link {
