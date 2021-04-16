@@ -3,7 +3,7 @@ import './Bios.css';
 import BioItem from './BioItem';
 import Heather from '../../../images/Heather.jpg';
 import Kayla from '../../../images/Kayla.jpg';
-import Rachael from '../../../images/me.jpg';
+import Kendra from '../../../images/Kendra.jpg';
 
 function Bios() {
   return (
@@ -28,22 +28,22 @@ function Bios() {
           </ul> */}
           <ul className='bio__items'>
             <BioItem
-              src={Rachael}
-              text='Rachael Homann'
-              label='Hotstone'
-              path='/services'
+              src={Kendra}
+              text='Kendra Waide'
+              label='Kendra'
+              path='/KendraBio'
             />
             <BioItem
               src={Heather}
               text='Heather Fowler'
-              label='Gift'
-              path='/products'
+              label='Heather'
+              path='/HeatherBio'
             />
             <BioItem
               src={Kayla}
               text='Kayla Rowland'
-              label='Loyalty'
-              path='/sign-up'
+              label='Kayla'
+              path='/KaylaBio'
             />
           </ul>
         </div>

@@ -8,6 +8,9 @@ import Products from './components/pages/Products';
 import SignUp from './components/pages/Signup';
 import Bios from './components/pages/LMT/Bios';
 import FooterSection from './components/Footer';
+import HeatherBio from './components/pages/LMT/HeatherBio';
+import KaylaBio from './components/pages/LMT/KaylaBio';
+import KendraBio from './components/pages/LMT/KendraBio';
 
 function App() {
   return (
@@ -20,7 +23,9 @@ function App() {
         <Route path='/Products' component={Products} />
         <Route path='/Signup' component={SignUp} />
         <Route path='/Bios' component={Bios} />
-        
+        <Route path='/HeatherBio' component={HeatherBio} />
+        <Route path='/KaylaBio' component={KaylaBio}   />
+        <Route path='/KendraBio' component={KendraBio} />     
       </Switch>
       <FooterSection />
     </Router>

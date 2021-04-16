@@ -1,0 +1,26 @@
+.Kendra__bio__wrapper {
+    position: relative;
+    margin: 50px 0 500px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.Kendra__pic{
+    margin: 1rem;
+    border: 2px solid black;
+    height: 15rem;
+}
+
+.Kendra__bio__container {
+    display: flex;
+    width: 75%;
+    margin-bottom: 3rem;
+  }
+
+    p {
+        text-align: center;
+    }
