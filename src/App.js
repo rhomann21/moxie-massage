@@ -11,6 +11,7 @@ import FooterSection from './components/Footer';
 import HeatherBio from './components/pages/LMT/HeatherBio';
 import KaylaBio from './components/pages/LMT/KaylaBio';
 import KendraBio from './components/pages/LMT/KendraBio';
+import Yoga from './components/pages/Yoga';
 
 function App() {
   return (
@@ -19,13 +20,14 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home}/>
-        <Route path='/Services' component={Services} />
-        <Route path='/Products' component={Products} />
-        <Route path='/Signup' component={SignUp} />
-        <Route path='/Bios' component={Bios} />
+        <Route path='/services' component={Services} />
+        <Route path='/sroducts' component={Products} />
+        <Route path='/signup' component={SignUp} />
+        <Route path='/bios' component={Bios} />
         <Route path='/HeatherBio' component={HeatherBio} />
         <Route path='/KaylaBio' component={KaylaBio}   />
         <Route path='/KendraBio' component={KendraBio} />     
+        <Route path='/yoga' component={Yoga} />
       </Switch>
       <FooterSection />
     </Router>

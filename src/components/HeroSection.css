@@ -10,7 +10,7 @@
     object-fit: contain;
     justify-content: center;
 }
-
+/* 
 .hero-container > h1 {
     color: #8fd0b4;
     font-family: HoneyScript-Light;
@@ -18,7 +18,7 @@
     margin-top: -100px;
     text-shadow: 4px 4px black;
 
-}
+} */
 
 .hero-container > h2 {
     margin-top: 8px;
@@ -49,6 +49,12 @@
     margin-left: 4px;
   }
 
+.logo {
+    margin-top: -150px;
+    width: 75%;
+    height: 50%;
+}
+
 @media screen and (max-width: 960px) {
     .hero-containter > h1 {
         font-size: 70px;
@@ -73,4 +79,5 @@
     .btn {
         width: 100%;
     }
+
 }

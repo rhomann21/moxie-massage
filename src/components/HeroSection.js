@@ -2,18 +2,20 @@ import React from 'react';
 import { Button } from './Button';
 import './HeroSection.css';
 import '../App.css';
+import logo from '../images/Moxie_logo.png';
 
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <h1>Moxie Massage</h1>
+            <img className='logo'src={logo} />
             <p>Don't you deserve to feel good?</p>
 
             <div className="hero-btns">
                 <Button 
                 classname='btns' 
                 buttonStyle='btn--outline' 
-                buttonSize='btn--lrg'>
+                buttonSize='btn--lrg'
+                onClick={console.log('This should open booking link!')}>
                     Book Online Today
                 </Button>
                 <Button

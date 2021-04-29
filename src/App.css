@@ -13,6 +13,7 @@
 .home,
 .services,
 .products,
+.yoga,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -39,8 +40,8 @@
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/src/images/hotstone.jpg');
+.yoga {
+  background-image: url('/src/images/yoga.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
