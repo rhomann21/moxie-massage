@@ -31,7 +31,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={hotstone}
-              text='Try out our luxurious hot stone massage'
+              text='View our list of services'
               label='Hotstone'
               path='/services'
             />

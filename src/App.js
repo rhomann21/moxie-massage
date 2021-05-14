@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/Signup';
 import Bios from './components/pages/LMT/Bios';
@@ -12,6 +11,7 @@ import HeatherBio from './components/pages/LMT/HeatherBio';
 import KaylaBio from './components/pages/LMT/KaylaBio';
 import KendraBio from './components/pages/LMT/KendraBio';
 import Yoga from './components/pages/Yoga';
+import Services from './components/pages/Services/Services'
 
 function App() {
   return (

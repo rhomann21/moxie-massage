@@ -4,6 +4,11 @@ import './HeroSection.css';
 import '../App.css';
 import logo from '../images/Moxie_logo.png';
 
+// const bookBtnClick = function(e) {
+//     e.stopPropagation();
+     
+// }
+
 function HeroSection() {
     return (
         <div className='hero-container'>
@@ -15,16 +20,18 @@ function HeroSection() {
                 classname='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--lrg'
-                onClick={console.log('This should open booking link!')}>
+                onClick={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890" }} 
+                >
                     Book Online Today
                 </Button>
                 <Button
                 className='btns'
                  buttonStyle='btn--primary'
                  buttonSize='btn--large'
-                onClick={console.log('hey')}
-                >
-                    Call Now <i className='fa fa-phone' />
+                onClick={<a href="tel:+12176794337"></a>} 
+                > 
+                Give us a call
+                <i className='fa fa-phone' />
                 </Button>
                 
             </div>

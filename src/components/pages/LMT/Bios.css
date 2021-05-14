@@ -17,7 +17,9 @@
     font-family: HoneyScript-Light;
     font-size: 120px;
     margin-top: 0rem;
-    text-shadow: 4px 4px black;
+    font-weight: lighter;
+    text-shadow: 0px 1px 4px black;
+    /* text-shadow: 4px 4px black; */
   }
 
   h2 {
