@@ -14,6 +14,7 @@
 .services,
 .products,
 .yoga,
+.contact,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -42,6 +43,15 @@
 
 .yoga {
   background-image: url('/src/images/yoga.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact {
+  background-image: url('/src/images/contact.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

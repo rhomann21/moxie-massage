@@ -28,7 +28,7 @@ function HeroSection() {
                 className='btns'
                  buttonStyle='btn--primary'
                  buttonSize='btn--large'
-                onClick={<a href="tel:+12176794337"></a>} 
+                onClick={{pathname: "tel:+12176794337"}} 
                 > 
                 Give us a call
                 <i className='fa fa-phone' />

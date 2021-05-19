@@ -1,6 +1,7 @@
 import React from 'react';
-import '../../../App.css';
-
+import '../../App.css';
+import './Contact.css';
+import { Button } from '../Button';
 
 //Include phone number for shop, email address, physical address
 //Do we need or want the google map feature?
@@ -8,7 +9,30 @@ import '../../../App.css';
 
 function Contact() {
      return(
-    <>
+     <><div><h1 className='contact'>Contact Us</h1></div>
+          <div className='contact__wrapper'> 
+
+         <div className='contact__buttons__wrapper'>
+               <Button
+                classname='btns' 
+                buttonStyle='btn--outline' 
+                buttonSize='btn--lrg'
+                onClick={{pathname: "tel:+12176794337"}} 
+                > 
+                Give us a call
+                <i className='fa fa-phone' />
+                </Button>
+                <Button
+                classname='btns' 
+                buttonStyle='btn--outline' 
+                buttonSize='btn--lrg'
+                onClick={{pathname: "mailto:your@email.address?subject=What's on your mind?"}} 
+                > 
+                Email Us   
+                <i className='fa fa-envelope' />
+                </Button>
+         </div>
+    </div>
     </>
      )}
      

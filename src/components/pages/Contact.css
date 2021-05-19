@@ -1,0 +1,9 @@
+.contact__wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact__buttons__wrapper {
+    margin: 2rem;
+}

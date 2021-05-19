@@ -29,23 +29,26 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>What We Do</Link>
+            {/* Need to make an about page */}
+            {/* Need to make all these pages actually bleh */}
+            <Link to='/'>What We Do</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Massage 101</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Email</Link>
-            <Link to='/'>Phone</Link>
+            <Link to={{pathname: "mailto:your@email.address?subject=What's on your mind?"}}>Email</Link>
+            <Link to={{pathname: "tel:+12176794337"}}>Phone</Link>
+            {/* look up how to embedd google map location key into a link */}
             <Link to='/'>Map</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Who We Are</h2>
-            <Link to='/'>Heather Fowler</Link>
-            <Link to='/'>Kendra Waide</Link>
-            <Link to='/'>Kayla Rowland</Link>
+            <Link to='/HeatherBio'>Heather Fowler</Link>
+            <Link to='/KendraBio'>Kendra Waide</Link>
+            <Link to='/KaylaBio'>Kayla Rowland</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Legal</h2>
@@ -63,7 +66,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='https://www.facebook.com/MoxieBacktini/'
+              to={{pathname: 'https://www.facebook.com/MoxieBacktini/'}}
               target='_blank'
               aria-label='Facebook'
             >
@@ -71,7 +74,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to={{pathname: 'https://www.instagram.com/moxiemassage/?hl=en'}}
               target='_blank'
               aria-label='Instagram'
             >
