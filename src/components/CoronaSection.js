@@ -1,7 +1,8 @@
 
 import React from 'react';
+import '../App.css';
 import './CoronaSection.css';
-import mask from '../images/mask.jpg'
+
 
 
 function CoronaSection() {

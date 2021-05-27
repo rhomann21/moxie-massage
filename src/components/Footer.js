@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join our loyalty program for discounts, freebies, and more.
         </p>
@@ -24,7 +24,7 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
@@ -38,7 +38,10 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to={{pathname: "mailto:your@email.address?subject=What's on your mind?"}}>Email</Link>
-            <Link to={{pathname: "tel:+12176794337"}}>Phone</Link>
+            <Link to='/'>605 E. Washington</Link>
+            <Link to='/'>Springfield, IL</Link>
+            <Link to='/'>62701</Link>    
+            <Link to={{pathname: "tel:+12176794337"}}>217.679.4337</Link>
             {/* look up how to embedd google map location key into a link */}
             <Link to='/'>Map</Link>
           </div>
@@ -51,7 +54,7 @@ function Footer() {
             <Link to='/KaylaBio'>Kayla Rowland</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Legal</h2>
+            <h2>Legal Stuff</h2>
             <Link to='/'>Terms of Service</Link>
             <Link to='/'>Privacy Policy</Link>
             <Link to='/'>Licensing</Link>

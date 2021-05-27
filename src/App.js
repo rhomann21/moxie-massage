@@ -13,7 +13,8 @@ import KendraBio from './components/pages/LMT/KendraBio';
 import Yoga from './components/pages/Yoga';
 import Services from './components/pages/Services/Services';
 import Contact from './components/pages/Contact';
-
+import Massages from './components/pages/Services/Massages'
+;
 function App() {
   return (
 <>
@@ -30,6 +31,7 @@ function App() {
         <Route path='/KendraBio' component={KendraBio} />     
         <Route path='/yoga' component={Yoga} />
         <Route path ='/contact' component={Contact} />
+        <Route path='/massages' component={Massages} />
       </Switch>
       <FooterSection />
     </Router>

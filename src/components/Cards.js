@@ -2,7 +2,6 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import yoga from '../images/yoga.jpg';
-//import product from '../images/products.jpg';
 import hotstone from '../images/hotstone.jpg';
 import oilmassage from '../images/oilmassage.jpg';
 import products2 from '../images/products2.jpg';
@@ -32,19 +31,19 @@ function Cards() {
             <CardItem
               src={hotstone}
               text='View our list of services'
-              label='Hotstone'
+              label='Massages'
               path='/services'
             />
             <CardItem
               src={oilmassage}
               text='Looking for the perfect gift?'
-              label='Gift'
-              path='/products'
+              label='eGift Certificates'
+              path={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890"}}
             />
             <CardItem
               src={handsback}
-              text='Sign up for our loyalty program'
-              label='Loyalty'
+              text='Get perks with our membership program'
+              label='Membership'
               path='/sign-up'
             />
           </ul>

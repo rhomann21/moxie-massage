@@ -3,6 +3,7 @@ import { Button } from './Button';
 import './HeroSection.css';
 import '../App.css';
 import logo from '../images/Moxie_logo.png';
+import logo2 from '../images/Moxie_logo_stack.png';
 
 // const bookBtnClick = function(e) {
 //     e.stopPropagation();
@@ -12,7 +13,8 @@ import logo from '../images/Moxie_logo.png';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <img className='logo'src={logo} />
+            <img className='logo2' src={logo2} alt='logo2'/>
+            <img className='logo' src={logo} alt='logo'/>
             <p>Don't you deserve to feel good?</p>
 
             <div className="hero-btns">

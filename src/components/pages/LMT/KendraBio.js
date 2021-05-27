@@ -8,7 +8,7 @@ function KendraBio() {
         <div className='Kendra__bio__wrapper'>
             <h1>Kendra Waide</h1>
             <div className='Kendra__pic__container'>
-              <img className='Kendra__pic' src={Kendra}></img>
+              <img className='Kendra__pic' src={Kendra} alt='kendra'></img>
             </div>
             <div className='Kendra__bio__container'>
             <p>

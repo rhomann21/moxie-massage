@@ -8,13 +8,13 @@ function KaylaBio() {
         <div className='Kayla__bio__wrapper'>
             <h1>Kayla Rowland</h1>
             <div className="Kayla__pic__container">
-              <img className='Kayla__pic' src={Kayla}></img>
+              <img className='Kayla__pic' src={Kayla} alt='kayla'></img>
             </div>
             <div className='Kayla_bio__container'>
             <p>
             Kayla has been with Moxie Massage since 2016, and graduated from USCA in Springfield, IL.
 
-              She specializes in deep tissue and skin care, and will be graduating from esthetics class in December of 2018!</p>
+            She specializes in deep tissue and skin care, and will be graduating from esthetics class in December of 2018!</p>
             </div>
         </div>
     </div>
