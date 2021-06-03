@@ -1,9 +1,21 @@
 .contact__wrapper {
     display: flex;
     justify-content: center;
+    background-color: black;
+}
 
+.phone__wrapper {
+    margin: 1rem;
+}
+
+.email__wrapper {
+   margin: 1rem;
 }
 
 .contact__buttons__wrapper {
     margin: 2rem;
+}
+
+.fa {
+    margin-left: .25rem;
 }

@@ -25,6 +25,14 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--outline--blk {
+    background-color: black;
+    border: 2px solid #8fd0b4;
+    color: #fff;
+    padding: 8px  20px;
+    transition: all 0.3s ease-out;
+}
+
 
 .btn--medium {
     padding: 8px 20px;
