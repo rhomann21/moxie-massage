@@ -4,7 +4,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Products from './components/pages/Products';
-import SignUp from './components/pages/Signup';
 import Bios from './components/pages/LMT/Bios';
 import FooterSection from './components/Footer';
 import HeatherBio from './components/pages/LMT/HeatherBio';
@@ -15,8 +14,8 @@ import Services from './components/pages/Services/Services';
 import Contact from './components/pages/Contact';
 import Massages from './components/pages/Services/Massages';
 import BodyTreatments from './components/pages/Services/BodyTreatments';
-;
-import BodyTreatments from './components/pages/Services/BodyTreatments';
+import Membership from './components/pages/Membership';
+
 function App() {
   return (
 <>
@@ -26,7 +25,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/services' component={Services} />
         <Route path='/products' component={Products} />
-        <Route path='/signup' component={SignUp} />
+        <Route path='/membership' component={Membership} />
         <Route path='/bios' component={Bios} />
         <Route path='/HeatherBio' component={HeatherBio} />
         <Route path='/KaylaBio' component={KaylaBio}   />

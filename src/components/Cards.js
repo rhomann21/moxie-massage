@@ -1,11 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import yoga from '../images/yoga.jpg';
+import yogacolor from '../images/yogacolor.jpg';
 import hotstone from '../images/hotstone.jpg';
-import oilmassage from '../images/oilmassage.jpg';
+import massagecolor from '../images/massagecolor.jpg';
 import products2 from '../images/products2.jpg';
-import handsback from '../images/handsback.jpg';
+import oilmassage from '../images/oilmassage.jpg'
 
 function Cards() {
   return (
@@ -16,12 +16,12 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={products2}
-              text='Products'
+              text='Check out our selection of products'
               label='Products'
               path='/Products'
             />
             <CardItem
-              src={yoga}
+              src={yogacolor}
               text='Socially distanced yoga'
               label='Yoga'
               path='/yoga'
@@ -29,22 +29,22 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={hotstone}
+              src={oilmassage}
               text='View our list of services'
               label='Massages'
               path='/services'
             />
             <CardItem
-              src={oilmassage}
+              src={hotstone}
               text='Looking for the perfect gift?'
               label='eGift Certificates'
               path={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890"}}
             />
             <CardItem
-              src={handsback}
+              src={massagecolor}
               text='Get perks with our membership program'
               label='Membership'
-              path='/sign-up'
+              path='/membership'
             />
           </ul>
         </div>

@@ -3,7 +3,7 @@ import '../../../App.css';
 import '../../Cards.css';
 import CardItem from '../../CardItem';
 import facial from '../../../images/facial.jpg';
-import massage2 from '../../../images/massage2.jpg';
+import massagecolor from '../../../images/massagecolor.jpg';
 import yoga2 from '../../../images/yoga2.jpg';
 
 function Services() {
@@ -15,7 +15,7 @@ function Services() {
       <div className='cards__wrapper'>
         <ul className='cards__items'>
           <CardItem
-            src={massage2}
+            src={massagecolor}
             text='Massages'
             label='Massages'
             path='/Massages'
@@ -30,7 +30,7 @@ function Services() {
             src={facial}
             text='Body Treatments'
             label='Treatments'
-            path='/treatments'
+            path='/bodytreatments'
           />
         </ul>
       </div>

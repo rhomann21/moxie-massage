@@ -21,12 +21,19 @@
 .yoga,
 .massages,
 .contact,
-.sign-up {
+.bodytreatments,
+.membership {
+  background-image: url('/src/images/hotstonebnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  font-size: 100px;
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 100px;
 }
 
 .services {
@@ -34,7 +41,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #8fd0b4;
   font-size: 100px;
 }
 
@@ -43,12 +50,12 @@
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #8fd0b4;
   font-size: 100px;
 }
 
 .yoga {
-  background-image: url('/src/images/yoga.jpg');
+  background-image: url('/src/images/yogabnw.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,15 +68,25 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #8fd0b4;
   font-size: 100px;
 }
 
 .massages {
-  background-image: url('/src/images/massage2.jpg');
+  background-image: url('/src/images/massagebnw.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #8fd0b4;
   font-size: 100px;
+}
+
+.bodytreatments {
+  background-image: url('/src/images/facialbnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  font-size: 100px;
+  margin-bottom: 1rem;
 }

@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../../App.css';
-import './MassageItems.css';
 import MassageItem from './MassageItem';
-import { Button } from '../../Button';
+import './MassageItems.css';
 
 
 function Massages() {
@@ -23,7 +22,7 @@ function Massages() {
             label='Deep Tissue Massage'
             time='30 / 60 / 90 minute'
             priceText='$45 / $100 / $130'
-            text='This is a combination of Swedish and deep tissue techniques to bring IMMEDIATE pain relief and reduce tension. It can be a relaxing massage to comfort tense muscles or it can be an intense trigger point session to break up adhesions in the tissue, depending on what you need.'
+            text='This is a combination of Swedish and deep tissue techniques to bring IMMEDIATE pain relief and reduce tension. It can be a relaxing massage to comfort tense muscles, or it can be an intense trigger point session to break up adhesions in the tissue - it all depends on what you need.'
             />
             </ul>
             <ul className='massages__items'>
@@ -31,7 +30,7 @@ function Massages() {
             label='Fix It! Massage'
             time='30 / 60 / 90 minute'
             priceText='$45 / $80 / $120'
-            text='Not sure what you need but you know it needs to be fixed? This appointment will cover everything from recognizing the issue, addressing the issue, the actual massage and any self care you are taught following the massage. This is for when you need more than just a general massage and require some follow up.'
+            text='Not sure what you need but you know it needs to be fixed? This appointment will cover everything! From recognizing and addressing the issue, the actual massage, and any self care you are taught following the massage. This is for when you need more than just a general massage and require some follow up.'
             />
             </ul>
             <ul className='massages__items'>

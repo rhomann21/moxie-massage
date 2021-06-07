@@ -2,20 +2,20 @@ import React from 'react';
 import '../../../App.css';
 import './MassageItems.css';
 import MassageItem from './MassageItem';
-import { Button } from '../../Button';
+// import { Button } from '../../Button';
 
 
 function BodyTreatments() {
     return (
         <><div><h1 className='bodytreatments'>Body Treatments</h1></div>
-        <div className='bodytreatments__container'>
-        <div className='bodytreatments__wrapper'>
+        <div className='massages__container'>
+        <div className='massages__wrapper'>
           <ul className='massages__items'>
             <MassageItem
             label='Moxalicious Facial'
-            time='30 / 60 / 90 minute'
-            priceText='$45 / $75 / $120'
-            text='This a deeply restorative massage with medium pressure and slow, purposeful strokes. This will calm your mind, relax your muscles and refresh your soul! It is truly a tiny vacation on the table.'
+            time='60 minute'
+            priceText='$80'
+            text='Acupressure is the word with this award winning massage based facial! Massage, massage, massage! We start with a hot towels with azulene and honey oil, followed by an exfoliating scrub and serum, a hydrating and firming mask, an acupressure session to lift and relax overworked muscles in the mouth and behind the eyes, and complete with a finishing balm and eye serum. Scalp massage included per request. This DOES include hand and foot reflexology.'
             />
             </ul>
             <ul className='massages__items'>
