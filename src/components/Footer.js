@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -51,12 +50,11 @@ function Footer() {
             <h2>Who We Are</h2>
             <Link to='/HeatherBio'>Heather Fowler</Link>
             <Link to='/KendraBio'>Kendra Waide</Link>
-            <Link to='/KaylaBio'>Kayla Rowland</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Legal Stuff</h2>
             <Link to='/'>Terms of Service</Link>
-            <Link to='/'>Privacy Policy</Link>
+            <Link to='/privacypolicy'>Privacy Policy</Link>
             <Link to='/'>Licensing</Link>
             <Link to='/'>ADA</Link>
           </div>

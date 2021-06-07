@@ -14,11 +14,11 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
-              src={products2}
-              text='Check out our selection of products'
-              label='Products'
-              path='/Products'
+          <CardItem
+              src={oilmassage}
+              text='View our list of services'
+              label='Massages'
+              path='/services'
             />
             <CardItem
               src={yogacolor}
@@ -28,11 +28,11 @@ function Cards() {
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
-              src={oilmassage}
-              text='View our list of services'
-              label='Massages'
-              path='/services'
+          <CardItem
+              src={products2}
+              text='Check out our selection of products'
+              label='Products'
+              path='/Products'
             />
             <CardItem
               src={hotstone}

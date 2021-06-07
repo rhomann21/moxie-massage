@@ -6,7 +6,7 @@ function yoga() {
   return (
      <div className='yoga__page__wrapper'> 
         <div className='yoga'>
-            <h1>Join Us for Socially Distanced Yoga Classes Today!</h1>
+            <h1>Yoga</h1>
         </div>
         <div className='yoga__text__wrapper'>
             <p className='yoga__text'>

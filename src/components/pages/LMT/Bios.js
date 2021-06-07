@@ -13,24 +13,19 @@ function Bios() {
       <div className='bio__container'>
         <div className='bio__wrapper'>
           <ul className='bio__items'>
-            <BioItem
-              src={Kendra}
-              text='Kendra Waide'
-              label='Kendra'
-              path='/KendraBio'
-            />
-            <BioItem
+          <BioItem
               src={Heather}
               text='Heather Fowler'
               label='Heather'
               path='/HeatherBio'
             />
             <BioItem
-              src={Kayla}
-              text='Kayla Rowland'
-              label='Kayla'
-              path='/KaylaBio'
+              src={Kendra}
+              text='Kendra Waide'
+              label='Kendra'
+              path='/KendraBio'
             />
+
           </ul>
         </div>
       </div>

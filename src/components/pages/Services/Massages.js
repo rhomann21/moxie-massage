@@ -22,7 +22,7 @@ function Massages() {
             label='Deep Tissue Massage'
             time='30 / 60 / 90 minute'
             priceText='$45 / $100 / $130'
-            text='This is a combination of Swedish and deep tissue techniques to bring IMMEDIATE pain relief and reduce tension. It can be a relaxing massage to comfort tense muscles, or it can be an intense trigger point session to break up adhesions in the tissue - it all depends on what you need.'
+            text='This is a DEEP massage. With a combination of elbows and feet, we use our whole body to strip your muscles down and use a heavy, even pressure to relieve tension and restrictions. We will not hurt you. We are in constant communication with you to ensure a therapeutic experience.'
             />
             </ul>
             <ul className='massages__items'>
