@@ -1,22 +1,42 @@
 
-.privacypolicy > h2 {
+.privacypolicy > h3 {
     display: flex;
     justify-content: center;
     margin: 1rem;
+    margin-top: 3rem;
+    font-size: 4rem;
 }
 
-.privacy__container > h3, p {
+p {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 1rem;
+    justify-content:left;
+    align-items: left;
+    margin: 2rem;
 }
-
 .privacy__container {
     margin: 3rem;
 }
 
-li {
-    margin-left: 2rem;
+ul {
+    margin: 1rem;
+    margin-left: 3rem;
     line-height: 1.5rem;
+}
+
+li {
+    margin: .5rem;
+    margin-left: 3rem;
+    line-height: 1.5rem;
+}
+
+div {
+    margin-bottom: 2rem;
+   
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2rem;
 }
