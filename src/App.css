@@ -19,7 +19,6 @@
 .services,
 .products,
 .yoga,
-.massages,
 .contact,
 .bodytreatments,
 .membership {
@@ -79,6 +78,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #8fd0b4;
+  font-size: 100px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
   font-size: 100px;
 }
 

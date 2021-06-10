@@ -53,10 +53,10 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Legal Stuff</h2>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/termsofservice'>Terms of Service</Link>
             <Link to='/privacypolicy'>Privacy Policy</Link>
             <Link to='/'>Licensing</Link>
-            <Link to='/'>ADA</Link>
+            <Link to='/adapolicy'>ADA</Link>
           </div>
         </div>
       </div>

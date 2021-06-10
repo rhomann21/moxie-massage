@@ -225,7 +225,7 @@ function PrivacyPolicy() {
 
             <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
         </div>
-        <div className='changes__div'>
+        <div className='changes__container'>
             <h3>Changes to this Privacy Policy</h3>
             <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
 
@@ -233,7 +233,7 @@ function PrivacyPolicy() {
 
             <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
         </div>
-        <div className='privacy__contact__div'>
+        <div className='privacy__contact__container'>
         <h3>Contact Us</h3>
             <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 

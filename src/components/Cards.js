@@ -7,6 +7,8 @@ import massagecolor from '../images/massagecolor.jpg';
 import products2 from '../images/products2.jpg';
 import oilmassage from '../images/oilmassage.jpg'
 
+let egift = <a href='https://login.meevo.com/moxiemassage/ob?locationId=105890' />
+
 function Cards() {
   return (
     <div className='cards'>
@@ -38,7 +40,7 @@ function Cards() {
               src={hotstone}
               text='Looking for the perfect gift?'
               label='eGift Certificates'
-              path={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890"}}
+              path={egift}
             />
             <CardItem
               src={massagecolor}

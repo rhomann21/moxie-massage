@@ -15,6 +15,8 @@ import Massages from './components/pages/Services/Massages';
 import BodyTreatments from './components/pages/Services/BodyTreatments';
 import Membership from './components/pages/Membership';
 import PrivacyPolicy from './components/pages/Legal/PrivacyPolicy';
+import ADAPolicy from './components/pages/Legal/ADA';
+import TermsOfService from './components/pages/Legal/TermsOfService';
 
 function App() {
   return (
@@ -34,6 +36,8 @@ function App() {
         <Route path='/massages' component={Massages} />
         <Route path='/bodytreatments' component={BodyTreatments} />
         <Route path='/privacypolicy' component={PrivacyPolicy} />
+        <Route path='/adapolicy' component={ADAPolicy} /> 
+        <Route path='/termsofservice' component={TermsOfService} />
       </Switch>
       <FooterSection />
     </Router>

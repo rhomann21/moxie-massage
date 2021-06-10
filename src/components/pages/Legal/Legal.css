@@ -1,5 +1,13 @@
 
-.privacypolicy > h3 {
+.privacypolicy> h3 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-top: 3rem;
+    font-size: 4rem;
+}
+
+.adapolicy > h3 {
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -13,8 +21,11 @@ p {
     align-items: left;
     margin: 2rem;
 }
+
+.commitment__container,
+.ada__contact__container,
 .privacy__container {
-    margin: 3rem;
+    margin: 6rem;
 }
 
 ul {
@@ -29,7 +40,16 @@ li {
     line-height: 1.5rem;
 }
 
-div {
+.update__container,
+.policy__info__container,
+.int__and__def__container,
+.collection___and__usage__container,
+.tracking__and__cookies__container,
+.personal__data__contianer,
+.links__container,
+.changes__container,
+.privacy__contact__container
+ {
     margin-bottom: 2rem;
    
 }
@@ -39,4 +59,12 @@ h3 {
     justify-content: flex-start;
     align-items: flex-start;
     margin: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .commitment__container,
+    .ada__contact__container,
+    .privacy__container {
+    margin: 3rem;
+}
 }
