@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import yogacolor from '../images/yogacolor.jpg';
@@ -6,8 +6,8 @@ import hotstone from '../images/hotstone.jpg';
 import massagecolor from '../images/massagecolor.jpg';
 import products2 from '../images/products2.jpg';
 import oilmassage from '../images/oilmassage.jpg'
-
-let egift = <a href='https://login.meevo.com/moxiemassage/ob?locationId=105890' />
+import Redirect from './egift';
+import CardItemExternal from './CardItem_External';
 
 function Cards() {
   return (
@@ -16,6 +16,7 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
+            {}
           <CardItem
               src={oilmassage}
               text='View our list of services'
@@ -36,13 +37,12 @@ function Cards() {
               label='Products'
               path='/Products'
             />
-            <CardItem
+            <CardItemExternal
               src={hotstone}
-              text='Looking for the perfect gift?'
+              text='Looking for the perfect gift? Egift certificates now available.'
               label='eGift Certificates'
-              path={egift}
             />
-            <CardItem
+          <CardItem
               src={massagecolor}
               text='Get perks with our membership program'
               label='Membership'

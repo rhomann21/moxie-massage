@@ -7,7 +7,9 @@
     font-size: 4rem;
 }
 
-.adapolicy > h3 {
+
+
+.adapolicy, .termsOfService > h3 {
     display: flex;
     justify-content: center;
     margin: 1rem;

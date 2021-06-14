@@ -2,12 +2,23 @@ import React from 'react';
 import '../../../App.css';
 import MassageItem from './MassageItem';
 import './MassageItems.css';
+import { Button } from '../../Button';
 
 
 function Massages() {
     return (
         <><div><h1 className='massages'>Massages</h1></div>
         <div className='massages__container'>
+          <div className='hero-btns'>
+          <Button 
+                classname='btns' 
+                buttonStyle='btn--outline--blk' 
+                buttonSize='btn--lrg'
+                onClick={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890" }} 
+                >
+                    Book Online Today
+                </Button>
+          </div>
         <div className='massages__wrapper'>
           <ul className='massages__items'>
             <MassageItem
@@ -89,7 +100,7 @@ function Massages() {
               text='Heather has two years of training focusing on this special skill. The main benefit of Tui Na massage is that it focuses on the specific problem, whether it is an acute or a chronic pain associated with the joints, muscles, or a skeletal system. This technique is very beneficial in reducing neck, shoulder, hip, back, arm, thigh, leg, and ankle disorders. It is a very effective therapy for arthritis, pain, sciatica, and muscle spasms.'
             />
           </ul>
-
+      
         </div>
       </div>
         </>
