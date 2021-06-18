@@ -6,7 +6,7 @@ import hotstone from '../images/hotstone.jpg';
 import massagecolor from '../images/massagecolor.jpg';
 import products2 from '../images/products2.jpg';
 import oilmassage from '../images/oilmassage.jpg'
-import Redirect from './egift';
+
 import CardItemExternal from './CardItem_External';
 
 function Cards() {
@@ -33,7 +33,7 @@ function Cards() {
           <ul className='cards__items'>
           <CardItem
               src={products2}
-              text='Check out our selection of products'
+              text='Products and merch - coming soon!'
               label='Products'
               path='/Products'
             />

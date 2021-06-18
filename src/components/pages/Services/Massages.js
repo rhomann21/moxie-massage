@@ -7,7 +7,7 @@ import { Button } from '../../Button';
 
 function Massages() {
     return (
-        <><div><h1 className='massages'>Massages</h1></div>
+        <><div className='massages'><h1>Massages</h1></div>
         <div className='massages__container'>
           <div className='hero-btns'>
           <Button 

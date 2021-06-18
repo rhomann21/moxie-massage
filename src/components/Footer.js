@@ -36,13 +36,13 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to={{pathname: "mailto:your@email.address?subject=What's on your mind?"}}>Email</Link>
+            <a href= "mailto:your@email.address?subject=What's on your mind?">Email</a>
             <Link to='/'>605 E. Washington</Link>
             <Link to='/'>Springfield, IL</Link>
             <Link to='/'>62701</Link>    
-            <Link to={{pathname: "tel:+12176794337"}}>217.679.4337</Link>
+            <a href="tel:+12176794337">217.679.4337</a>
             {/* look up how to embedd google map location key into a link */}
-            <Link to='/'>Map</Link>
+            <Link to='/contact'>Map</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>

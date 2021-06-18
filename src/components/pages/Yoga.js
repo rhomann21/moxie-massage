@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import './Yoga.css';
+
 
 function yoga() {
   return (

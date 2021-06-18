@@ -16,6 +16,7 @@
 }
 
 .home,
+/* .massages,  */
 .services,
 .products,
 .yoga,
@@ -35,6 +36,32 @@
   font-size: 100px;
 }
 
+
+.membership__container {
+  background-color: transparent;
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+
+.membership__container > h2 {
+  margin-bottom: 2rem;
+}
+
+.membership__text__container {
+  margin-top: 3rem;
+}
+
+.membership__text__container > p {
+  font-size: .75rem;
+  margin: auto;
+}
+
 .services {
   background-image: url('/src/images/oilmassage-svg.jpg');
   background-position: center;
@@ -42,13 +69,12 @@
   background-repeat: no-repeat;
   color: #8fd0b4;
   font-size: 12rem;
-  
 }
 
 .products {
-  background-image: url('/src/images/products.jpg');
+  background-image: url('/src/images/products2bnw.jpg');
   background-position: center;
-  background-size: fill;
+  background-size:fill;
   background-repeat: no-repeat;
   color: #8fd0b4;
   font-size: 100px;
@@ -60,8 +86,19 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 100px;}
+
+.yoga__text__wrapper {
+    background-color:white;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 auto;
 }
+
 
 .contact {
   background-image: url('/src/images/contact.jpg');
@@ -86,6 +123,7 @@
   font-size: 100px;
 }
 
+
 .bodytreatments {
   background-image: url('/src/images/facialbnw.jpg');
   background-position: center;
@@ -95,4 +133,14 @@
   font-size: 100px;
   margin-bottom: 1rem;
 }
+
+.product__text__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-direction: column;
+  text-align: center;
+}
+
 

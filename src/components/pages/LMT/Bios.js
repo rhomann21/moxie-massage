@@ -2,7 +2,6 @@ import React from 'react';
 import './Bios.css';
 import BioItem from './BioItem';
 import Heather from '../../../images/Heather.jpg';
-import Kayla from '../../../images/Kayla.jpg';
 import Kendra from '../../../images/Kendra.jpg';
 
 function Bios() {

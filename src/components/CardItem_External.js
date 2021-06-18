@@ -1,17 +1,6 @@
 import React from 'react';
 import './Cards.css';
 
-let egiftlink = ''
-
-
-//This may work when domain is updated
-
-// if (window.location = 'http://www.moxiemassage.com') {
-//        egiftlink = 'https://na0.meevo.com/EgiftApp/home?tenantId=102988'
-// }else {
-//        egiftlink='https://login.meevo.com/moxiemassage/ob?locationId=105890'
-// };
-    
 
 function CardItemExternal(props) {
   return (
@@ -19,10 +8,10 @@ function CardItemExternal(props) {
       <li className='cards__item__external'>
         <div className='cards__item__link__external'>
           <figure className='cards__item__pic-wrap__external' data-category={props.label}>
-            <a href={egiftlink}>
+            <a href='https://na0.meevo.com/EgiftApp/home?tenantId=102988'>
             <img
               className='cards__item__img__external'
-              alt='Massage Image External'
+              alt='Massage External'
               src={props.src}
             />
             </a>
