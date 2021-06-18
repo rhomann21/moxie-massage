@@ -30,9 +30,9 @@ function Footer() {
             <h2>About Us</h2>
             {/* Need to make an about page */}
             {/* Need to make all these pages actually bleh */}
-            <Link to='/'>What We Do</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Massage 101</Link>
+            <Link to='/whatwedo'>What We Do</Link>
+            <Link to='/testimonials'>Testimonials</Link>
+            <Link to='/massage101'>Massage 101</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
