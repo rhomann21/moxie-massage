@@ -28,7 +28,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #8fd0b4;
-  font-size: 100px;
   display: flex;
   height: 90vh;
   align-items: center;
@@ -143,4 +142,42 @@
   text-align: center;
 }
 
+.wwd {
+  background-image: url('/src/images/wwd_bnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  font-size: 100px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
 
+.massage101 {
+  background-image: url('/src/images/hands_bnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  text-shadow: 2px 2px black;
+  font-size: 120px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials {
+  background-image: url('/src/images/testimonial_bnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  font-size: 120px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
