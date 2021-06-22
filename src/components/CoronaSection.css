@@ -8,9 +8,11 @@
   font-size: 5rem;
 }
 
-.corona > h3 {
+.corona__wrapper > h3 {
+  /* display: flex; */
   text-align: center;
-  align-items: center;
+  margin-left: 1rem;
+  /* justify-content: center; */
 }
 
 .corona__container {

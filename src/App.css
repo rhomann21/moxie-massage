@@ -79,6 +79,10 @@
   font-size: 100px;
 }
 
+.product__p__wrapper > p {
+  justify-content: center;
+}
+
 .yoga {
   background-image: url('/src/images/yogabnw.jpg');
   background-position: center;
@@ -155,6 +159,19 @@
   justify-content: center;
 }
 
+.wwd__text__wrapper > h3 {
+  justify-content: center;
+  text-align: center;
+  margin: 3rem;
+  font-size:x-large;
+}
+
+.wwd__content__wrapper {
+  display: flex;
+  flex-direction:row;
+  margin: 6rem;
+}
+
 .massage101 {
   background-image: url('/src/images/hands_bnw.jpg');
   background-position: center;
@@ -180,4 +197,16 @@
   height: 90vh;
   align-items: center;
   justify-content: center;
+}
+
+
+.wwd__pic {
+  margin: 1rem;
+  border-radius: 5px;
+  border-color: black;
+  max-width: 14rem;
+}
+
+.wwd__pic__wrapper {
+  display: contents;
 }

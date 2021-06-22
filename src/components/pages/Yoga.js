@@ -12,7 +12,6 @@ function yoga() {
             <p className='yoga__text'>
                 This is where the yoga blurb will go. We need to include times and dates - are the classes every weekend or every other? Once a month? 
                 Customers will book classes by calling - we cannoit do it any other way with MEevo unfortunately. 
-                Max 8 people.
                 Describe the studio? How many square feet? 
                 Do customers need to bring all their own equiptment? Will we have rental mats?
                 Huzzah!

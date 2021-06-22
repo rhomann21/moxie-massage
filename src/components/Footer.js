@@ -37,11 +37,11 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <a href= "mailto:your@email.address?subject=What's on your mind?">Email</a>
+            {/* change these links to regular p tags / h3 tags - match to font of links */}
             <Link to='/'>605 E. Washington</Link>
             <Link to='/'>Springfield, IL</Link>
             <Link to='/'>62701</Link>    
             <a href="tel:+12176794337">217.679.4337</a>
-            {/* look up how to embedd google map location key into a link */}
             <Link to='/contact'>Map</Link>
           </div>
         </div>
@@ -55,7 +55,7 @@ function Footer() {
             <h2>Legal Stuff</h2>
             <Link to='/termsofservice'>Terms of Service</Link>
             <Link to='/privacypolicy'>Privacy Policy</Link>
-            <Link to='/'>Licensing</Link>
+            <Link to='/licensing'>Licensing</Link>
             <Link to='/adapolicy'>ADA</Link>
           </div>
         </div>
@@ -82,28 +82,12 @@ function Footer() {
               <i class='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
               class='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
             </Link>
           </div>
         </div>

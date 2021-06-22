@@ -9,7 +9,7 @@ function TermsOfService() {
       <div className='terms__container'>
         <div className='commitment__container'>
             
-        PLEASE READ THE FOLLOWING TERMS OF SERVICE AGREEMENT CAREFULLY. BY ACCESSING OR USING OUR WEBSITE (HTTP://WWW.MOXIEMASSAGE.COM) OR OUR SERVICES, YOU HEREBY AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS AND ALL TERMS INCORPORATED HERIN BY REFERENCE. IT IS THE RESPONSIBILITY OF YOU, THE USER, CUSTOMER, OR PROSPECTIVE CUSTOMER TO READ THE TERMS AND CONDITIONS BEFORE PROCEEDING TO USE THIS SITE. IF YOU DO NOT EXPRESSLY AGREE TO ALL THE TERMS AND CONDITIONS, THEN PLEASE DO NOT ACCESS OR USE OUR SITE OR OUR SERVICES.
+       <p> PLEASE READ THE FOLLOWING TERMS OF SERVICE AGREEMENT CAREFULLY. BY ACCESSING OR USING OUR WEBSITE (HTTP://WWW.MOXIEMASSAGE.COM) OR OUR SERVICES, YOU HEREBY AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS AND ALL TERMS INCORPORATED HERIN BY REFERENCE. IT IS THE RESPONSIBILITY OF YOU, THE USER, CUSTOMER, OR PROSPECTIVE CUSTOMER TO READ THE TERMS AND CONDITIONS BEFORE PROCEEDING TO USE THIS SITE. IF YOU DO NOT EXPRESSLY AGREE TO ALL THE TERMS AND CONDITIONS, THEN PLEASE DO NOT ACCESS OR USE OUR SITE OR OUR SERVICES.
 
 The present terms and conditions (this “agreement” or “terms”) is a legal agreement between you and Moxie Massage, a company duly organized and validly existing, located at 605 E Washington St, Springfield, Illinois 62701. This Agreement annuls and voids all previous agreements.
 
@@ -310,7 +310,7 @@ t h e Moxie Massage Online Privacy Policy (see the full Privacy Policy at
 http://www.moxiemassage.com/privacypolicy). As a member, you herein consent to the collection
 and use of the information provided, including the transfer of information within the United States
 and/or other countries for storage, processing or use by Moxie Massage and/or our subsidiaries
-and affiliates
+and affiliates</p>
 
         </div>
       </div>

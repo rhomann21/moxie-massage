@@ -1,33 +1,39 @@
 
-.privacypolicy> h3 {
+.adapolicy, .termsOfService, .privacypolicy > h3 {
     display: flex;
     justify-content: center;
     margin: 1rem;
     margin-top: 3rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
-
-
-.adapolicy, .termsOfService > h3 {
+.termsOfService, .adapolicy {
     display: flex;
-    justify-content: center;
-    margin: 1rem;
-    margin-top: 3rem;
-    font-size: 4rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 p {
     display: flex;
     justify-content:left;
     align-items: left;
-    margin: 2rem;
+    margin: 2rem; 
+    font-size:medium;
 }
 
-.commitment__container,
-.ada__contact__container,
+
 .privacy__container {
     margin: 6rem;
+}
+
+.commitment__container, .ada__contact__container > h4 {
+    font-size: large;
+}
+
+.ada__contact__container > p {
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
@@ -66,7 +72,7 @@ h3 {
 @media screen and (max-width: 768px) {
     .commitment__container,
     .ada__contact__container,
-    .privacy__container {
+    .terms__container {
     margin: 3rem;
 }
 }

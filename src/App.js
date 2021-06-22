@@ -20,6 +20,7 @@ import TermsOfService from './components/pages/Legal/TermsOfService';
 import WhatWeDo from './components/pages/About/WhatWeDo';
 import Testimonials from './components/pages/About/Testimonials';
 import Massage101 from './components/pages/About/Massage101';
+import Licensing from './components/pages/Legal/Licensing';
 
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
         <Route path='/HeatherBio' component={HeatherBio} />
         <Route path='/KendraBio' component={KendraBio} />     
         <Route path='/yoga' component={Yoga} />
-        <Route path ='/contact' component={Contact} />
+        <Route path='/contact' component={Contact} />
         <Route path='/massages' component={Massages} />
         <Route path='/bodytreatments' component={BodyTreatments} />
         <Route path='/privacypolicy' component={PrivacyPolicy} />
@@ -44,6 +45,7 @@ function App() {
         <Route path='/whatwedo'component={WhatWeDo} />
         <Route path='/testimonials' component={Testimonials} />
         <Route path='/massage101' component={Massage101} />
+        <Route path='/licensing' component={Licensing} />
       </Switch>
       <FooterSection />
     </Router>

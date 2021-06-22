@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .wwd__content__wrapper {
+        margin: 2rem;
+    }
+    .wwd__pic {
+        display:none;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
+    .wwd__pic__wrapper{
+        display: block;
+  }}

@@ -21,11 +21,13 @@ h1 {
   margin: 50px 0 45px;
 }
 
-.cards__items, .cards__items__external {
+.cards__items, 
+.cards__items__external {
   margin-bottom: 24px;
 }
 
-.cards__item, .cards__item__external {
+.cards__item, 
+.cards__item__external {
   display: flex;
   flex: 1;
   margin: 0 1rem;
@@ -128,5 +130,8 @@ h1 {
   .cards > h1 {
       font-size: 5rem;
       margin-top: 0px;
+  }
+  .cards__item__external {
+    margin-bottom: 2rem;
   }
 }
