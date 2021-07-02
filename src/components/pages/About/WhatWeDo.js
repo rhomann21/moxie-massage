@@ -1,7 +1,8 @@
 import React from 'react';
+import './WhatWeDo.css';
 import '../../../App.css';
 import verticalMassage from '../../../images/verthandsback.jpg';
-import './WhatWeDo.css';
+
 
 export default function WhatWeDo() {
     return(

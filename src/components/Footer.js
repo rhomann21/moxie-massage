@@ -31,7 +31,6 @@ function Footer() {
             {/* Need to make an about page */}
             {/* Need to make all these pages actually bleh */}
             <Link to='/whatwedo'>What We Do</Link>
-            <Link to='/testimonials'>Testimonials</Link>
             <Link to='/massage101'>Massage 101</Link>
           </div>
           <div class='footer-link-items'>
@@ -55,7 +54,6 @@ function Footer() {
             <h2>Legal Stuff</h2>
             <Link to='/termsofservice'>Terms of Service</Link>
             <Link to='/privacypolicy'>Privacy Policy</Link>
-            <Link to='/licensing'>Licensing</Link>
             <Link to='/adapolicy'>ADA</Link>
           </div>
         </div>
@@ -81,14 +79,7 @@ function Footer() {
             >
               <i class='fab fa-instagram' />
             </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
+
           </div>
         </div>
       </section>

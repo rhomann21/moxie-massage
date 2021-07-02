@@ -1,0 +1,48 @@
+.massage101__list__wrapper > ol {
+    line-height: 2rem;
+    list-style-type: circle;
+    list-style: circle;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+p {
+    text-align: center;
+    justify-content: center;
+}
+
+.massage101__container {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+.massage101__text__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.massage101__text__wrap > h3 {
+    margin-top: 1rem;
+    justify-content: center;
+    margin-bottom: -2rem;
+}
+
+.massage101__p__wrap {
+    margin: 5rem;
+}
+/* 
+Figure out why rem won't change - media query wrong? */
+
+@media screen and (max-width: 768px) {
+    ..massage101__p__wrap {
+      margin: -2rem;
+    }
+    .Bios > h1 {
+      line-height: 6rem;
+    }
+
+
+  }

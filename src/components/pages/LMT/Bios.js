@@ -6,9 +6,9 @@ import Kendra from '../../../images/Kendra.jpg';
 
 function Bios() {
   return (
-    <div className='Bios'>
+   <> <div className='Bios'>
       <h1>We are glad to meet you!</h1>
-      <h2>Our licensed massage therapists are here and ready to help.</h2>
+    </div>
       <div className='bio__container'>
         <div className='bio__wrapper'>
           <ul className='bio__items'>
@@ -18,7 +18,9 @@ function Bios() {
               label='Heather'
               path='/HeatherBio'
             />
-            <BioItem
+          </ul>
+          <ul className='bio__items'>
+          <BioItem
               src={Kendra}
               text='Kendra Waide'
               label='Kendra'
@@ -28,7 +30,7 @@ function Bios() {
           </ul>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

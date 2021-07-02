@@ -129,6 +129,7 @@ h1 {
 @media screen and (max-width: 768px) {
   .cards > h1 {
       font-size: 5rem;
+      line-height: 5rem;
       margin-top: 0px;
   }
   .cards__item__external {
