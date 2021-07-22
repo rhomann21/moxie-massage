@@ -13,12 +13,13 @@ import Services from './components/pages/Services/Services';
 import Contact from './components/pages/Contact';
 import Massages from './components/pages/Services/Massages';
 import BodyTreatments from './components/pages/Services/BodyTreatments';
-import Membership from './components/pages/Membership';
+import Membership from './components/pages/Membership/Membership';
 import PrivacyPolicy from './components/pages/Legal/PrivacyPolicy';
 import ADAPolicy from './components/pages/Legal/ADA';
 import TermsOfService from './components/pages/Legal/TermsOfService';
 import WhatWeDo from './components/pages/About/WhatWeDo';
 import Massage101 from './components/pages/About/Massage101';
+import Booking from './components/pages/Services/Bookings/Booking';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path='/termsofservice' component={TermsOfService} />
         <Route path='/whatwedo'component={WhatWeDo} />
         <Route path='/massage101' component={Massage101} />
+        <Route path='/booking' component={Booking} />
       </Switch>
       <FooterSection />
     </Router>

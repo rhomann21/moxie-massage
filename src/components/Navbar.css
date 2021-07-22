@@ -1,6 +1,7 @@
 @font-face {
   src: url(../Fonts/HoneyScript-Light.ttf);
   font-family: HoneyScript-Light;
+  letter-spacing: -2px;
 }
 
 .navbar {

@@ -5,14 +5,15 @@
 
 @font-face {
   font-family: VerdanaPro-CondRegular;
-  src: url(./Fonts/VerdanaPro-CondRegular.woff);
+  src: url(./Fonts/VerdanaPro-CondLight.woff);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'VerdanaPro-CondRegular', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'VerdanaPro-CondLight', Verdana, Geneva, Tahoma, sans-serif;
+  font-stretch:extra-condensed;
 }
 
 .home,

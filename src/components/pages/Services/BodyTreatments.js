@@ -15,7 +15,15 @@ function BodyTreatments() {
             label='Moxalicious Facial'
             time='60 minute'
             priceText='$80'
-            text='Acupressure is the word with this award winning massage based facial! Massage, massage, massage! We start with a hot towels with azulene and honey oil, followed by an exfoliating scrub and serum, a hydrating and firming mask, an acupressure session to lift and relax overworked muscles in the mouth and behind the eyes, and complete with a finishing balm and eye serum. Scalp massage included per request. This DOES include hand and foot reflexology.'
+            text='Acupressure is the word with this award winning massage-based facial! Massage, massage, massage! We start with a hot towels with azulene and honey oil, followed by an exfoliating scrub and serum, a hydrating and firming mask, an acupressure session to lift and relax overworked muscles in the mouth and behind the eyes, and complete with a finishing balm and eye serum. Scalp massage included per request. This DOES include hand and foot reflexology.'
+            />
+            </ul>
+            <ul className='massages__items'>
+            <MassageItem
+            label='Moxalicious Mini Facial'
+            time='35 minute'
+            priceText='$55'
+            text='Give yourself a small vacation with our mini facial! Includes a hand and foot massage for tired paws - perfect for pre/post surgery or jet lag.'
             />
             </ul>
             <ul className='massages__items'>

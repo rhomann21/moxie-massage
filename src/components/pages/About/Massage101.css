@@ -37,7 +37,7 @@ p {
 Figure out why rem won't change - media query wrong? */
 
 @media screen and (max-width: 768px) {
-    ..massage101__p__wrap {
+    .massage101__p__wrap {
       margin: -2rem;
     }
     .Bios > h1 {

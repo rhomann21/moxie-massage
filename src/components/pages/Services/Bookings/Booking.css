@@ -1,0 +1,46 @@
+@font-face {
+    font-family: VerdanaPro-CondRegular;
+    src: url(../../../../Fonts/VerdanaPro-CondBold.woff);
+  }
+
+.booking__widget {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.pre-filters {
+    align-items: center;
+}
+
+.healcode-title-text {
+    text-shadow: none;
+    font-size: 3rem !important;
+}
+
+.healcode-appointments.filtered_collection {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.appointment.button {
+
+}
+
+.h1 {
+    font-size: 3rem !important;
+    text-shadow: none;
+
+}
+
+#appointment-datepicker-div-f688199a241 {
+    display: flex;
+    justify-content: center;
+}
+
+#hc-find-appt {
+    font-size: 1rem;
+    width: 100%;
+}

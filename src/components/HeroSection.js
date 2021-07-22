@@ -5,10 +5,6 @@ import '../App.css';
 import logo from '../images/Moxie_logo.png';
 import logo2 from '../images/Moxie_logo_stack.png';
 
-// const bookBtnClick = function(e) {
-//     e.stopPropagation();
-     
-// }
 
 function HeroSection() {
     return (
@@ -22,7 +18,7 @@ function HeroSection() {
                 classname='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--lrg'
-                onClick={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890" }} 
+                onClick='/booking' 
                 >
                     Book Online Today
                 </Button>
