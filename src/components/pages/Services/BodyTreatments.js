@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../App.css';
 import './MassageItems.css';
-import MassageItem from './MassageItem';
+import MassageCardItem from './MassageCardItem';
 // import { Button } from '../../Button';
 
 
@@ -11,7 +11,7 @@ function BodyTreatments() {
         <div className='massages__container'>
         <div className='massages__wrapper'>
           <ul className='massages__items'>
-            <MassageItem
+            <MassageCardItem
             label='Moxalicious Facial'
             time='60 minute'
             priceText='$80'
@@ -19,7 +19,7 @@ function BodyTreatments() {
             />
             </ul>
             <ul className='massages__items'>
-            <MassageItem
+            <MassageCardItem
             label='Moxalicious Mini Facial'
             time='35 minute'
             priceText='$55'
@@ -27,7 +27,7 @@ function BodyTreatments() {
             />
             </ul>
             <ul className='massages__items'>
-            <MassageItem
+            <MassageCardItem
             label='Seaweed Body Wrap'
             time='30 / 60 / 90 minute'
             priceText='$45 / $100 / $130'

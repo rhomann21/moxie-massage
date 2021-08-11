@@ -1,7 +1,9 @@
-@font-face {
-    font-family: VerdanaPro-CondRegular;
+.booking__widget {
+    @font-face {
+    font-family: VerdanaPro-CondBold;
     src: url(../../../../Fonts/VerdanaPro-CondBold.woff);
   }
+}
 
 .booking__widget {
     display: flex;
@@ -21,18 +23,18 @@
 .healcode-appointments.filtered_collection {
     display: flex;
     flex-direction: column;
-    width: auto;
-
+    width: 75%;
+    padding-left: 25%;
 }
 
-.appointment.button {
-
+.healcode-trainer {
+    margin-bottom: 2rem;
 }
 
-.h1 {
+
+.appointment-date-block > h1 {
     font-size: 3rem !important;
     text-shadow: none;
-
 }
 
 #appointment-datepicker-div-f688199a241 {

@@ -1,5 +1,5 @@
 import React from 'react';
-import useScript from './BookingWidget';
+import useScript from '../../../MindbodyScript';
 import './Booking.css';
 
 

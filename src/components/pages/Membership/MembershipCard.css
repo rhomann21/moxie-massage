@@ -46,64 +46,78 @@
     text-decoration: none;
   }
   
-  .membership__cards__item__pic-wrap {
+  .membership__cards__item__title {
+    background: #8fd0b4;
     position: relative;
     width: 100%;
     padding-top: 30%;
     overflow: hidden;
   }
   
-  .fade-img {
+  /* .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
-  }
+  } */
   
-  .membership__cards__item__pic-wrap::after {
+  .membership__cards__item__title::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 2vw;
     font-weight: 700;
     color: black;
     background-color: #8fd0b4;
     box-sizing: border-box;
   }
   
-  .membership__cards__item__label {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    transition: all 0.2s linear;
+  .membership__cards__item__tier {
+    color: #252e48;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px;  
   }
   
-  .membership__cards__item__label:hover{
+  /* .membership__cards__item__title:hover{
     transform: scale(1.1);
-  }
+  } */
   
-  .membership__cards__item__info {
-    padding: 25px 40px 30px;
-    font-size: 3rem;
-    margin-top: -100px
-  }
   
-  .membership__cards__item__text, .membership__cards__item__text2 {
+  .membership__cards__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
     padding: 10px;  
   }
-  
+
+  .membership__cards__item__text2 {
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px;  
+  }
+
+.membership__cards__link {
+  display: flex;
+  justify-content: center;
+}  
+
+.membership__btn {
+  font-weight: 900;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 6px 18px;
+  background-color: transparent;
+  border: 2px solid #8fd0b4;
+  color: black;
+  margin: 1.5rem;
+  transition: all 0.3s ease-out;  
+  left: 50%;
+  transform: translate(50%, 0%)
+}
+
   /* @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
@@ -137,5 +151,8 @@
     }
     .membership__cards__item__external {
       margin-bottom: 2rem;
+    }
+    .membership__cards__item__title::after {
+      font-size: 10vw;
     }
   }

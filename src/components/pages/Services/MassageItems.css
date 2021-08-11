@@ -26,13 +26,7 @@
   .massages__items {
     margin-bottom: 24px;
   }
-  
-  .massages__item {
-    display: flex;
-    flex: 1;
-    margin: 0 1rem;
-    border-radius: 10px;
-  }
+
   
   .massages__item__card {
     display: flex;

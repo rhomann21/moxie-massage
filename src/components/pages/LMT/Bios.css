@@ -41,13 +41,14 @@
   }
   
   .bio__wrapper {
+    display: flex;
     position: relative;
     margin: 100px 0 45px;
   }
     
   .bio__item {
     margin: 2rem;
-    border-radius: 10px;
+    border-radius: 10px; 
     background-color: white;
   }
 
@@ -58,7 +59,7 @@
   .bio__item__link {
     display: flex;
     flex-flow: column;
-    width: 100%;
+    width: 150%;
     box-shadow: 0 6px 20px rgba(0, 105, 82, 0.384);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -137,7 +138,9 @@
     .Bios > h1 {
       line-height: 6rem;
     }
-
+    .bio__wrapper {
+      display: block;
+    }
 
   }
   

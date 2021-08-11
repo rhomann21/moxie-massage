@@ -4,9 +4,10 @@
 }
 
 @font-face {
-  font-family: VerdanaPro-CondRegular;
+  font-family: VerdanaPro-CondLight;
   src: url(./Fonts/VerdanaPro-CondLight.woff);
 }
+
 
 * {
   box-sizing: border-box;
@@ -35,6 +36,16 @@
   font-size: 100px;
 }
 
+.membership__intro__text {
+  margin-bottom: -2rem;
+}
+.membership__intro__text > p {
+  font-size: 2rem;
+}
+.membership__intro__text > h1 {
+  font-size: 7rem;
+  margin-top: -3rem;
+}
 
 .membership__container {
   background-color: transparent;
@@ -57,7 +68,7 @@
 }
 
 .membership__text__container {
-  margin-top: 3rem;
+  margin: 3rem;
 }
 
 .membership__text__container > p {
