@@ -1,24 +1,41 @@
 import React from 'react';
+import MembershipCardItem from './Membership/MembershipCardItem';
 import '../../App.css';
 
 
-function yoga() {
-  return (
-     <div className='yoga__page__wrapper'> 
-        <div className='yoga'>
-            <h1>Yoga</h1>
+function Yoga() {
+    return(
+    <><div><h1 className='yoga'>Yoga</h1></div>
+   
+   <div className='membership__cards'>
+      <div className='membership__intro__text'>
+     <p> Now introducing Moxie Yoga! Beginner's classes are now available online or in studio at our Spa. No judgement, no pressure - just a good stretch and a great time.</p>
+      </div>
+      <div className='membership__cards__container'>
+        <div className='membership__cards__wrapper'>
+          <ul className='membership__cards__items'>
+            <MembershipCardItem
+               title='In Studio'
+               label='$15 per session'
+              text='Option 1: 1 hour Swedish massage + 1 yoga class.'
+              text2='Option 2: 1 hour deep tissue massage  + 1 yoga class.'
+            //   id is from mindbosy in booking url link (last three numbers)
+              id='100116'
+            />           
+       <MembershipCardItem         
+               title='Online Option'
+               label='$10 per session'
+              text='Option 1: 1 hour Deep Rest massage + 1 yoga class + 10% off product.'
+              text2='Option 2: 1 hour Tui Na (Fix It) massage + 1 yoga class + 10% off product.'
+              id='102'
+            /> 
+         </ul>
         </div>
-        <div className='yoga__text__wrapper'>
-            <p className='yoga__text'>
-                This is where the yoga blurb will go. We need to include times and dates - are the classes every weekend or every other? Once a month? 
-                Customers will book classes by calling - we cannoit do it any other way with MEevo unfortunately. 
-                Describe the studio? How many square feet? 
-                Do customers need to bring all their own equiptment? Will we have rental mats?
-                Huzzah!
-            </p>
-        </div>
-    </div>
-  );
-}
+      </div>
 
-export default yoga;
+ </div>
+ </>
+    )}
+    
+export default Yoga;
+

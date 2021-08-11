@@ -7,8 +7,7 @@ export default function Massage101() {
     <> <h1 className='massage101'>Massage 101</h1>
     <div className='massage101__container'>
         <div className='massage101__text__wrap'>
-            <h1>Moxie</h1>
-            <h3>is here - don't you deserve to feel good?</h3>
+            <h3>How massage can help you:</h3>
             </div>
         <div className='massage101__p__wrap'>
         <p>Massage has many physical, mental, and emotional benefits and here at Moxie, we strive to give you the full beneficial experience. 

@@ -8,7 +8,7 @@ function CardItemExternal(props) {
       <li className='cards__item__external'>
         <div className='cards__item__link__external'>
           <figure className='cards__item__pic-wrap__external' data-category={props.label}>
-            <a href='https://na0.meevo.com/EgiftApp/home?tenantId=102988'>
+            <a href='https://cart.mindbodyonline.com/sites/103021/cart/gift_cards/add?mbo_id=10004'>
             <img
               className='cards__item__img__external'
               alt='Massage External'

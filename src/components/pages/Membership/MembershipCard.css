@@ -20,21 +20,16 @@
     position: relative;
     margin: 50px 0 45px;
   }
-  
-  .membership__cards__items, 
-  .membership__cards__items__external {
-    margin-bottom: 24px;
-  }
-  
-  .membership__cards__item, 
-  .membership__cards__item__external {
+    
+  .membership__cards__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    margin-bottom: 24px;
   }
   
-  .membership__cards__item__link, .membership__cards__item__link__external {
+  .membership__cards__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -50,14 +45,9 @@
     background: #8fd0b4;
     position: relative;
     width: 100%;
-    padding-top: 30%;
+    padding-top: 4.5rem;
     overflow: hidden;
   }
-  
-  /* .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
-  } */
   
   .membership__cards__item__title::after {
     content: attr(data-category);
@@ -80,10 +70,6 @@
     padding: 10px;  
   }
   
-  /* .membership__cards__item__title:hover{
-    transform: scale(1.1);
-  } */
-  
   
   .membership__cards__item__text {
     color: #252e48;
@@ -99,10 +85,6 @@
     padding: 10px;  
   }
 
-.membership__cards__link {
-  display: flex;
-  justify-content: center;
-}  
 
 .membership__btn {
   font-weight: 900;
@@ -114,8 +96,8 @@
   color: black;
   margin: 1.5rem;
   transition: all 0.3s ease-out;  
-  left: 50%;
-  transform: translate(50%, 0%)
+  width: -webkit-fill-available;
+  /* transform: translate(50%, 0%) */
 }
 
   /* @media only screen and (min-width: 1200px) {

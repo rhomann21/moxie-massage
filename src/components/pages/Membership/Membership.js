@@ -34,7 +34,7 @@ function Membership() {
       <div className='membership__cards__container'>
         <div className='membership__cards__wrapper'>
           <ul className='membership__cards__items'>
-       <MembershipCardItem
+            <MembershipCardItem
                title='Moxie Member'
                label='Tier 1'
               text='Option 1: 1 hour Swedish massage + 1 yoga class.'

@@ -22,12 +22,14 @@ p {
 .massage101__text__wrap {
     display: flex;
     flex-direction: column;
+    margin-bottom: -3%;
 }
 
 .massage101__text__wrap > h3 {
     margin-top: 1rem;
     justify-content: center;
     margin-bottom: -2rem;
+    font-size: 8vh;
 }
 
 .massage101__p__wrap {
@@ -44,5 +46,20 @@ Figure out why rem won't change - media query wrong? */
       line-height: 6rem;
     }
 
+    .massage101__text__wrap {
+        display: flex;
+        flex-direction: column;
+        line-height: 8rem;
+        margin-bottom: 2rem;
+    }
+    .massage101__text__wrap > h3 {
+        margin-top: 1rem;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        font-size: 5vh;
+        line-height: 15vw;
+    }
+    
 
   }
