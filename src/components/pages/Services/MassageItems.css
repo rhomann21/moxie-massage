@@ -44,11 +44,12 @@
 .massages__item__title__wrap {
   background: #8fd0b4;
   position: relative;
-  padding-top: 2rem;
-  height: 16vh;
+  padding-top: 1.5rem;
+  height: 4.5rem;
   font-size: 2vw;
   font-weight: 700;
-  /* overflow: hidden; */
+  overflow: hidden;
+  text-indent: 10px;
 }
 
   
@@ -80,6 +81,14 @@
     font-size: 1vw;
     margin: 15px;
   }
+
+#showMe1 {
+  font-size: 18px;
+}
+
+#hidden_div {
+  display: none;
+}
 
   /* @media only screen and (min-width: 1200px) {
     .content__blog__container {
@@ -123,6 +132,10 @@
       position: relative;
       margin-top: 1rem;
       padding-top: .5rem;
+      height: 4rem;
+      font-size: 7vw;
+      overflow-x: scroll;
+      white-space: nowrap;
      }
   
 
@@ -130,4 +143,12 @@
       align-items: center;
       justify-content: center;
     }
+
+    .time__dropdown {
+      width: 70%;
+      font-size: 5vw;
+      margin: 15px;
+    }
   }
+
+  

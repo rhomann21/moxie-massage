@@ -5,6 +5,21 @@ import './MassageItems.css';
 import { Button } from '../../Button';
 
 
+let slot1=[{
+  time1:'30 minute',
+  price1:'$55',
+  id1:'100009'},
+  {
+  time2:'60 minute',
+  price2:'$80',
+  id2:'100008',
+},
+{
+  time3:'90 minute',
+  price3:'$120',
+  id3:'1000026'
+}]
+
 
 //if time 1 is selected, show div with price 1, show book now button for that massage / id 1
 
@@ -26,22 +41,22 @@ function Massages() {
           <ul className='massages__items'>
             <MassageCardItem
             title='Deep Rest Massage'
-            time1='30 minute'
-            time2='60 minute'
-            time3='90 minute'
-            price1='$55'
-            price2='$80'
-            price3='$120'
-            id1='100009'
-            id2='100008'
-            id3='1000026'
+            {...slot1}
             text='This a deeply restorative massage with medium pressure and slow, purposeful strokes. This will calm your mind, relax your muscles and refresh your soul! It is truly a tiny vacation on the table.'
             />
             </ul>
             <ul className='massages__items'>
             <MassageCardItem
             title='Deep Tissue Massage'
-            price='$55 / $100 / $130'
+            time1='30 Minute'
+            time2='60 Minute'
+            time3='90 Minute'
+            price1='$55'
+            price2='$100'
+            price3='$130'
+            id1='100007'
+            id2='100006'
+            id3='100027'
             text='This is a DEEP massage. With a combination of elbows and feet, we use our whole body to strip your muscles down and use a heavy, even pressure to relieve tension and restrictions. We will not hurt you. We are in constant communication with you to ensure a therapeutic experience.'
             />
             </ul>
