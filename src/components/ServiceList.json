@@ -1,0 +1,38 @@
+[
+    {
+        "massage": [
+        {
+            "Deep Rest 30 Minute": [
+                {   
+                    "time1": "30 Minutes",
+                    "price": "$55",
+                    "id": "100009",
+                    "massageID" : 1,
+                    "title": "Deep Rest 30 Minute"
+                }
+            ]
+        }
+        ,{
+            "Deep Rest 60 Minute" : [
+                {
+                    "time2": "60 Minute",
+                    "price": "$80",
+                    "id": "100008",
+                    "massageID" : 1
+                }
+            ]
+        }
+        ,{
+            "Deep Rest 90 Minute" : [
+                {
+                    "time3": "90 Minute",
+                    "price": "$120",
+                    "id" : "1000026",
+                    "massageID" : 1
+                }
+            ]
+        }
+
+        ]
+    }
+]
