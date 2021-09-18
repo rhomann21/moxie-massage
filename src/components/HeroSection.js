@@ -18,7 +18,7 @@ function HeroSection() {
                 classname='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--lrg'
-                onClick='/booking' 
+                onClick={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890" }}  
                 >
                     Book Online Today
                 </Button>
