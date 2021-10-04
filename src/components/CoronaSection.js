@@ -8,7 +8,6 @@ import './CoronaSection.css';
 function CoronaSection() {
   return (
     <div className='corona'>
-      <h1>Here's how we're keeping everyone safe:</h1>
       <div className='corona__container'>
         <div className='corona__wrapper'>
           <h3> Staff is following current CDC and state mandated guidelines. <br></br>
