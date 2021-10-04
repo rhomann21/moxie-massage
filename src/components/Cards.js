@@ -12,7 +12,6 @@ import CardItemExternal from './CardItem_External';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>How can we help you today?</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
