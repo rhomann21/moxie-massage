@@ -6,9 +6,9 @@ function CardItemExternal(props) {
   return (
     <>
       <li className='cards__item__external'>
-        <div className='cards__item__link__external'>
+        <div className='cards__item__link__external' onClick={() => window.location.href = "https://na0.meevo.com/EgiftApp/home?tenantId=102988"}>
           <figure className='cards__item__pic-wrap__external' data-category={props.label}>
-            <a href='https://cart.mindbodyonline.com/sites/103021/cart/gift_cards/add?mbo_id=10004'>
+            <a href='https://na0.meevo.com/EgiftApp/home?tenantId=102988'>
             <img
               className='cards__item__img__external'
               alt='Massage External'
@@ -26,3 +26,4 @@ function CardItemExternal(props) {
 }
 
 export default CardItemExternal;
+
