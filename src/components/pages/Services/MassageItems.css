@@ -13,7 +13,7 @@
     align-items: center;
     max-width: 1120px;
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
   }
   
   .massages__wrapper {
@@ -23,75 +23,68 @@
     /* margin: 50px 0 45px; */
   }
   
-  .massages__items {
+  .massages__item {
     margin-bottom: 24px;
+    display: contents;
   }
 
   
   .massages__item__card {
       display: flex;
       flex-flow: column;
-      width: 100%;
+      margin: 1rem;
+      /* width: 100%; */
       box-shadow: 0 6px 20px rgba(0, 105, 82, 0.384);
       -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
       filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
       border-radius: 10px;
-      overflow: hidden;
+      /* overflow: hidden; */
       text-decoration: none;
     }
 
 
 .massages__item__title__wrap {
+  display: flex;
+  justify-content: center;
   background: #8fd0b4;
   position: relative;
   padding-top: 1.5rem;
+  margin-bottom: 1rem;
   height: 4.5rem;
-  font-size: 2vw;
-  font-weight: 700;
+  font-size: 3rem;
   overflow: hidden;
-  text-indent: 10px;
+
 }
 
   
-  .massages__item__info {
-    color: #252e48;
-    font-size: 18px;
-    line-height: 20px;
-    padding: 10px;  
-  }
-  
   .massages__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size:1.75vw;
     line-height: 24px;
-    padding: 10px;  
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center */
   }
 
 
   .massage__item__pricing {
+    display: flex;
+    justify-content: center;
     color: #252e48;
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
     padding: 5px;
-    margin-left: .5rem; 
-    
-  }
-  
-
-  .time__dropdown {
-    width: 20%;
-    font-size: 1vw;
-    margin: 15px;
+    /*  */
   }
 
-#showMe1 {
-  font-size: 18px;
-}
+ .massages__item__button {
+   display: flex;
+   justify-content: center;
+   padding: .5rem;
+ } 
 
-#hidden_div {
-  display: none;
-}
 
   /* @media only screen and (min-width: 1200px) {
     .content__blog__container {
@@ -103,9 +96,6 @@
     .massages__items {
       display: flex;
     }
-  }
-  
-@media only screen and (max-width: 1024px) {
     .massages__item {
       margin-bottom: 2rem;
     }
@@ -113,15 +103,17 @@
   
 @media screen and (max-width: 960px) {
     .massages > h1 {
-        font-size: 5rem;
+        font-size: 9rem;
         margin-top: 25px;
     }
-    .massages__item__title-wrap {
-        /* position: relative; */
+    .massages__item__title__wrap {
+        font-size: 4vw;
         width: 100%;
-        padding-top: 10%;
         overflow: hidden;
       }
+    .massages__item__text {
+      font-size: 3vw;
+    }
   }
   
 @media screen and (max-width: 768px) {
@@ -130,28 +122,24 @@
         margin-top: 0px;
     }
 
+    .massages__items {
+      width: 80%;
+      margin: auto;
+    }
 
     .massages__item__title__wrap {
       position: relative;
-      margin-top: 1rem;
-      padding-top: .5rem;
       height: 4rem;
-      font-size: 7vw;
-      overflow-x: scroll;
+      font-size: 5vw;
+      padding-left: 1rem;
+      padding-right: 1rem;
       white-space: nowrap;
      }
+
+     .massages__item__text {
+       font-size: 4vw;
+     }
   
-
-    .massages__items {
-      align-items: center;
-      justify-content: center;
-    }
-
-    .time__dropdown {
-      width: 70%;
-      font-size: 5vw;
-      margin: 15px;
-    }
   }
 
   

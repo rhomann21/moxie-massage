@@ -1,5 +1,6 @@
 import React, { Component }from 'react';
 import { Button } from '../../Button';
+import './MassageItems.css';
 // import ServiceListDB from '../../ServiceList.json';
 
 //if id equals  one two or three, return one two or three
@@ -65,15 +66,15 @@ function MassageCardItem(props){
           <div className='massage__item__pricing'>{props.time2}  {props.price2}</div>
           <div className='massage__item__pricing'>{props.time3}  {props.price3}</div>
           <div className='massages__item__text'>{props.text}</div>
-          <Button 
+          <div className='massages__item__button'>  <Button 
                 classname='btns' 
-                buttonStyle='btn--outline' 
+                buttonStyle='btn--outline--blk' 
                 buttonSize='btn--lrg'
-                onClick='/booking' 
+                onClick={{pathname: "https://login.meevo.com/moxiemassage/ob?locationId=105890" }}
                 >
                     Book Now
                 </Button>
-
+            </div>
           </div>
       </li>
     </>
