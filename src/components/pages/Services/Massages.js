@@ -99,12 +99,23 @@ function Massages() {
             <MassageCardItem
             title='Hot Stone Massage'
             time1='60 Minute : '
+            time2='90 Minute : '
+            price1='$100'
+            price2='$140'
+            text='Using basalt or pink Himalayan salt stones, penetrating heat from the smooth stones is used to relieve pain and tension.'
+            />
+            </ul>
+
+            {/* <ul className='massages__items'>
+            <MassageCardItem
+            title='Hot Stone Massage'
+            time1='60 Minute : '
             time2='90 minute : '
             price1='$100'
             price2='$140'
             text='Using basalt or pink Himalayan salt stones, penetrating heat from smooth stones is used to relieve pain and tension.'
             />
-          </ul>
+          </ul> */}
           <ul className='massages__items'>
             <MassageCardItem
             title='Perfect Pregnancy Massage'
@@ -151,7 +162,6 @@ function Massages() {
               text='This massage uses specific protocol for temporomandibular joint disfunction - helps to relieve migraines and teeth grinding.'
             />
           </ul>
-        </div>
         <ul className='massages__items'>
             <MassageCardItem
             title='Myofascial Release Massage'
@@ -160,6 +170,7 @@ function Massages() {
               text='Myofascial release is a gentle form of holistic body work using the osteopathic work and teachings of Ida Rolf. It incorporates working with the client and their nervous system, breathing deeply, and using very little lotion or oil. We work deeper, layer by layer, in order to target stuck tissue. Great for neck and shoulder pain, sciatica, and plantar fasciitis.'
             />
           </ul>
+      </div>
       </div>
         </>
     )
