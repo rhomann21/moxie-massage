@@ -4,33 +4,28 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+
 }
 
 .contact__buttons__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.phone__wrapper {
-    display: flex;
-    margin: 1rem;
-}
-
-.email__wrapper {
-    display: flex;
-   margin: 1rem;
-}
-
-.contact__buttons__wrapper {
     margin: 2rem;
 }
+
+.contact__buttons {
+    display: flex;
+    margin: 2rem;
+}
+
 
 .fa {
     margin-left: .25rem;
 }
 
-@media only screen and (max-width: 1024px) {
+
+/* @media only screen and (max-width: 1024px) {
     .google_maps{
         width: 300px;
         height: 225px;
@@ -38,7 +33,7 @@
 
   @media screen and (max-width: 768px) {
     .google_maps {
-        width: 300px;
-        height: 225px;
+        width: 50%;
+        height: 50%;
     }
-  }
+  } */
