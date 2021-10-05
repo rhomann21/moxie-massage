@@ -11,9 +11,7 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
+
 }
 
 .cards__wrapper {
@@ -30,7 +28,8 @@ h1 {
 .cards__item__external {
   display: flex;
   flex: 1;
-  margin: 0 1rem;
+  margin-bottom: 24px;
+  /* margin: 0 1rem; */
   border-radius: 10px;
 }
 
@@ -111,9 +110,6 @@ h1 {
   .cards__items {
     display: flex;
   }
-}
-
-@media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
   }
@@ -134,5 +130,22 @@ h1 {
   }
   .cards__item__external {
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cards__items {
+    width: 110%;
+    align-items: center;
+    
+  }
+  .cards__item {
+    margin-bottom: 2rem;
+    align-items: center;
+
+  }
+
+  .cards__container {
+    margin: 0
   }
 }
