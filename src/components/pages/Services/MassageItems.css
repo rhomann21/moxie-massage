@@ -46,9 +46,10 @@
 .massages__item__title__wrap {
   display: flex;
   justify-content: center;
+  text-align: center;
   background: #8fd0b4;
   position: relative;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   margin-bottom: 1rem;
   height: 4.5rem;
   font-size: 3rem;
@@ -64,7 +65,7 @@
     padding: 10px;
     justify-content: center;
     text-align: center;
-    /* align-items: center */
+
   }
 
 
@@ -76,7 +77,7 @@
     font-weight: bold;
     line-height: 24px;
     padding: 5px;
-    /*  */
+
   }
 
  .massages__item__button {
@@ -109,10 +110,11 @@
     .massages__item__title__wrap {
         font-size: 4vw;
         width: 100%;
-        overflow: hidden;
+        word-wrap: break-word;
       }
+
     .massages__item__text {
-      font-size: 3vw;
+      font-size: 2.75vw;
     }
   }
   
@@ -128,18 +130,35 @@
     }
 
     .massages__item__title__wrap {
-      position: relative;
-      height: 4rem;
       font-size: 5vw;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      white-space: nowrap;
+      line-height: normal;
+      /* padding-left: 1rem; */
+      word-wrap: break-word;
+      display: table;
      }
 
      .massages__item__text {
        font-size: 4vw;
      }
   
+  }
+
+  @media only screen and (max-width: 600px) {
+    .massages__item__text {
+      font-size: 3vw;
+    }
+
+    .massages__item__title__wrap {
+      font-size: 4.5vw;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      padding: .5rem;
+     }
+
+
   }
 
   
