@@ -36,17 +36,6 @@ p {
     justify-content: center;
 }
 
-ul {
-    margin: 1rem;
-    margin-left: 3rem;
-    line-height: 1.5rem;
-}
-
-li {
-    margin: .5rem;
-    margin-left: 3rem;
-    line-height: 1.5rem;
-}
 
 .update__container,
 .policy__info__container,
