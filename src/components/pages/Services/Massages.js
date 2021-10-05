@@ -170,6 +170,18 @@ function Massages() {
               text='Myofascial release is a gentle form of holistic body work using the osteopathic work and teachings of Ida Rolf. It incorporates working with the client and their nervous system, breathing deeply, and using very little lotion or oil. We work deeper, layer by layer, in order to target stuck tissue. Great for neck and shoulder pain, sciatica, and plantar fasciitis.'
             />
           </ul>
+        <ul className='massages__items'>
+          <MassageCardItem 
+          title='Reiki Session (Traditional Usui Reiki Ryoho)'
+          time1='30 Minute : '
+          time2='60 Minute : '
+          time3='90 Minute : '
+          price1='$55'
+          price2='$80'
+          price3='$100'
+          text='Reiki is a traditional Japanese hands-on healing method in which the practitioner channels spiritually-guided life force energy known as ki, chi, orgone, or prana. Reiki may help reduce stress and promote healing and is said to work on many levels including the physical, the mental, the emotional, and the energetic. The client may remain fully clothed or undress to their comfort level beneath the drape.'
+          />
+          </ul>
       </div>
       </div>
         </>
