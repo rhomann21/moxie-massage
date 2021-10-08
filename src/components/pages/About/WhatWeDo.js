@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './WhatWeDo.css';
 import '../../../App.css';
 import verticalMassage from '../../../images/verthandsback.jpg';
 
 
 export default function WhatWeDo() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
     <> <h1 className='wwd'>What We Do</h1>
     <div className='wwd__container'>

@@ -1,8 +1,14 @@
 import React from 'react';
+import { useEffect } from 'react';
 import '../../../App.css';
 import './Massage101.css';  
 
 export default function Massage101() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
     <> <h1 className='massage101'>Massage 101</h1>
     <div className='massage101__container'>
