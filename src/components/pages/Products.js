@@ -1,7 +1,13 @@
 import React from 'react';
+import { useEffect } from 'react';
 import '../../App.css';
 
 export default function Products() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return(
     <> <h1 className='products'>Products - Coming soon</h1>
     <div className='product__text__wrapper'>

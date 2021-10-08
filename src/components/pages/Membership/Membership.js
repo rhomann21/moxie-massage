@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../../App.css';
 import MembershipCardItem from './MembershipCardItem';
 // import useScript from '../../MindbodyScript'; 
@@ -23,6 +23,10 @@ import MembershipCardItem from './MembershipCardItem';
 
 
 function Membership() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
     return(
     <><div><h1 className='membership'>Membership</h1></div>
    
