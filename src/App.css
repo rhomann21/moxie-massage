@@ -8,6 +8,13 @@
   src: url(./Fonts/VerdanaPro-CondLight.woff);
 }
 
+h1 {
+  color: #8fd0b4;
+  font-family: HoneyScript-Light;
+  font-size: 130px;
+  font-weight:lighter;
+  text-shadow: 0px 3px 4px black;
+}
 
 * {
   box-sizing: border-box;
@@ -83,6 +90,7 @@
   background-repeat: no-repeat;
   color: #8fd0b4;
   font-size: 12rem;
+  text-shadow: 5px 4px 3px black;
 }
 
 .products {
@@ -144,14 +152,30 @@
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 100px;
 }
 
+.HeatherBio {
+  background-image: url('/src/images/buddhabw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeatherBio > h1 {
+  margin-top: -2rem;
+  font-size: 10rem;
+  text-shadow: 5px 3px 4px black;
+}
 
 .bodytreatments {
   background-image: url('/src/images/facialbnw.jpg');
   background-position: center;
-  background-size: cover;
+  background-size:auto;
   background-repeat: no-repeat;
   color: #8fd0b4;
   font-size: 100px;

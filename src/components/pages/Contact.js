@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../App.css';
 import './Contact.css';
 import { Button } from '../Button';
@@ -6,6 +6,11 @@ import { Button } from '../Button';
 
 
 function Contact() {
+
+     useEffect(() => {
+          window.scrollTo(0, 0)
+        }, [])
+
      return(
      <><div><h1 className='contact'>Contact Us</h1></div>
           <div className='contact__wrapper'> 

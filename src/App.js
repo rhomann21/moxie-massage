@@ -1,5 +1,6 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
@@ -19,9 +20,9 @@ import ADAPolicy from './components/pages/Legal/ADA';
 import TermsOfService from './components/pages/Legal/TermsOfService';
 import WhatWeDo from './components/pages/About/WhatWeDo';
 import Massage101 from './components/pages/About/Massage101';
-import Booking from './components/pages/Services/Bookings/Booking';
 
 function App() {
+
   return (
 <>
     <Router>
@@ -43,7 +44,6 @@ function App() {
         <Route path='/termsofservice' component={TermsOfService} />
         <Route path='/whatwedo'component={WhatWeDo} />
         <Route path='/massage101' component={Massage101} />
-        <Route path='/booking' component={Booking} />
       </Switch>
       <FooterSection />
     </Router>

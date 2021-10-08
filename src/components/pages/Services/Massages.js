@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../../App.css';
 import MassageCardItem from './MassageCardItem';
 import './MassageItems.css';
@@ -10,6 +10,11 @@ import { Button } from '../../Button';
 //if time 1 is selected, show div with price 1, show book now button for that massage / id 1
 
 function Massages() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
     return (
         <><div className='massages'><h1>Massages</h1></div>
         <div className='massages__container'>

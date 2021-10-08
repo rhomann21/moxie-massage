@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../../App.css';
 import '../../Cards.css';
 import CardItem from '../../CardItem';
@@ -7,6 +7,11 @@ import massagecolor from '../../../images/massagecolor.jpg';
 import yoga2 from '../../../images/yoga2.jpg';
 
 function Services() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
      return(
      <><div><h1 className='services'>Services</h1></div>
     

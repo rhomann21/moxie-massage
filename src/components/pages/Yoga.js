@@ -1,9 +1,16 @@
 import React from 'react';
+import { useEffect } from 'react';
 import MembershipCardItem from './Membership/MembershipCardItem';
 import '../../App.css';
 
 
 function Yoga() {
+
+
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+  
     return(
     <><div><h1 className='yoga'>Yoga</h1></div>
    
