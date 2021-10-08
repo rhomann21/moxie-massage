@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import yogacolor from '../images/yogacolor.jpg';
@@ -10,6 +10,8 @@ import oilmassage from '../images/oilmassage.jpg'
 import CardItemExternal from './CardItem_External';
 
 function Cards() {
+
+
   return (
     <div className='cards'>
       <div className='cards__container'>

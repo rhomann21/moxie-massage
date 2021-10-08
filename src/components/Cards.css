@@ -29,7 +29,7 @@ h1 {
   display: flex;
   flex: 1;
   margin-bottom: 24px;
-  /* margin: 0 1rem; */
+  margin: 0 1rem;
   border-radius: 10px;
 }
 
@@ -43,6 +43,7 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 .cards__item__pic-wrap, .cards__item__pic-wrap__external {
@@ -130,6 +131,7 @@ h1 {
   }
   .cards__item__external {
     margin-bottom: 2rem;
+
   }
 }
 

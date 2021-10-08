@@ -9,7 +9,7 @@ function BioItem(props) {
           <figure className='bio__item__pic-wrap' data-category={props.label}>
             <img
               className='bio__item__img'
-              alt='LMT Image'
+              alt='BioPic'
               src={props.src}
             />
           </figure>
