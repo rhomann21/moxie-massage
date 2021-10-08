@@ -43,7 +43,7 @@
   
   .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -122,9 +122,10 @@
   
     .navbar-logo {
       position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(7%, 50%);
+      top: 10;
+      left: 10;
+      transform: 50%
+
     }
   
     .menu-icon {
