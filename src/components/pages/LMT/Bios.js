@@ -10,11 +10,11 @@ function Bios() {
       <h1>We are glad to meet you!</h1>
     </div>
       <div className='bio__container'>
-        <div className='bio__wrapper'>
+        {/* <div className='bio__wrapper'> */}
           <ul className='bio__items'>
           <BioItem
               src={Heather}
-              text='Heather Fowler'
+              text='Heather Fowler, Owner'
               label='Heather'
               path='/HeatherBio'
             />
@@ -22,13 +22,13 @@ function Bios() {
           <ul className='bio__items'>
           <BioItem
               src={Kendra}
-              text='Kendra Waide'
+              text='Kendra Waide, LMT'
               label='Kendra'
               path='/KendraBio'
             />
 
           </ul>
-        </div>
+        {/* </div> */}
       </div>
     </>
   );
