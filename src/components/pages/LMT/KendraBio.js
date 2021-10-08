@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './KendraBio.css';
 import Kendra from '../../../images/Kendra.jpg';
 
 function KendraBio() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='Kendra__wrapper'>
         <div className='Kendra__bio__wrapper'>
