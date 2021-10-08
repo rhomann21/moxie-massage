@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Legal.css';
 
 
 function TermsOfService() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
 
     <div className='termsOfService'><h3>Terms of Service</h3>

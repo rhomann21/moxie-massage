@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Legal.css';
 
 
 function ADAPolicy() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
 
     <div className='adapolicy'><h3>ADA Compliance</h3>

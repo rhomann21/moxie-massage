@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-p {
+.adapolicy, .termsOfService, .privacypolicy > p {
     display: flex;
     justify-content:left;
     align-items: left;
