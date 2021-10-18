@@ -21,7 +21,7 @@ export default function WhatWeDo() {
                 <img className='wwd__pic' src={verticalMassage} alt='vertMasssage'></img>
             </div>
             <div className='wwd__text'>
-                <p> Moxie Massage began it’s journey 17 years ago with a dream, a hearty amount of determination, and unbelievable passion. Heather Fowler began her career ____________________. Since then, we have grown into a multi-faceted small business offering everything from adorable tote bags to beginner’s yoga classes.</p>
+                <p> Moxie Massage began it’s journey 17 years ago with a dream, a hearty amount of determination, and unbelievable passion. Since then, we have grown into a multi-faceted small business offering everything from adorable tote bags to beginner’s yoga classes.</p>
 
                 <p>Moxie Massage, voted best Massage therapists in Springfield, IL - welcomes you to experience what everyone is talking about, and see for yourself what it is like to feel good again.</p>
 

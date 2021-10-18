@@ -40,30 +40,26 @@ function Membership() {
           <ul className='membership__cards__items'>
             <MembershipCardItem
                title='Moxie Member'
-               label='Tier 1'
+               label='Tier 1 - $80/month'
               text='Option 1: 1 hour Swedish massage + 1 yoga class.'
               text2='Option 2: 1 hour deep tissue massage  + 1 yoga class.'
-              id='101'
-              // id is taken from mindbody url/link
-
             />           
        <MembershipCardItem         
                title='More Moxie'
-               label='Tier 2'
+               label='Tier 2 - $100/month'
               text='Option 1: 1 hour Deep Rest massage + 1 yoga class + 10% off product.'
               text2='Option 2: 1 hour Tui Na (Fix It) massage + 1 yoga class + 10% off product.'
-              id='102'
 
             /> 
        <MembershipCardItem
                title='Moxie Master'
-               label='Tier 3'
+               label='Tier 3 - $120/month'
               text='Option 1: 90 min Swedish massage + 1 yoga class OR 10% off product.'
               text2='Option 2: 90 min Deep Tissue massage + 1 yoga class OR 10% off.'
             /> 
        <MembershipCardItem
                title='Maximum Moxie'
-               label='Tier 4'
+               label='Tier 4 - $140/month'
               text='Option 1: 1 hour Swedish massage + facial OR cupping OR 20% off.'
               text2='Option 2: 1 hour Deep Tissue + facial OR cupping OR 20% off.'
             /> 

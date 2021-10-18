@@ -40,7 +40,7 @@ function Cards() {
             />
             <CardItemExternal
               src={hotstone}
-              text='Looking for the perfect gift? Egift certificates now available.'
+              text='Egift certificates now available'
               label='eGift Certificates'
             />
           <CardItem

@@ -19,8 +19,7 @@ h1 {
   width: -webkit-fill-available;
 }
 
-.cards__items, 
-.cards__items__external {
+.cards__items {
   margin-bottom: 24px;
 }
 

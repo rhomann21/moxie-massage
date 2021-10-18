@@ -7,7 +7,7 @@ import Kendra from '../../../images/Kendra.jpg';
 function Bios() {
   return (
    <> <div className='Bios'>
-      <h1>We are glad to meet you!</h1>
+
     </div>
       <div className='bio__container'>
         {/* <div className='bio__wrapper'> */}

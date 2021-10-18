@@ -6,7 +6,7 @@ import smIcon from '../images/svg_icon.svg';
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [setButton] = useState(true);
+    const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -51,11 +51,11 @@ function Navbar() {
                         Contact
                     </Link>
                 </li>
-                <li className='nav-item'>
+                {/* <li className='nav-item'>
                     <Link to='/yoga' className='nav-links' onClick={closeMobileMenu}>
                         Yoga
                     </Link>
-                </li>
+                </li> */}
                 <li className='nav-item'>
                     <Link to='/membership' className='nav-links' onClick={closeMobileMenu}>
                         Memberships
