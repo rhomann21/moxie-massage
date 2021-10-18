@@ -1,17 +1,18 @@
 import React from 'react';
 import './Bios.css';
 import BioItem from './BioItem';
+import BioSection from './BioSection';
 import Heather from '../../../images/Heather.jpg';
 import Kendra from '../../../images/Kendra.jpg';
 
 function Bios() {
   return (
-   <> <div className='Bios'>
-
-    </div>
+   <> <div className='Bios'></div>
+           <BioSection />
       <div className='bio__container'>
         {/* <div className='bio__wrapper'> */}
           <ul className='bio__items'>
+
           <BioItem
               src={Heather}
               text='Heather Fowler, Owner'
