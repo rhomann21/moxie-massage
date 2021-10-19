@@ -33,9 +33,9 @@ function Services() {
           />
           <CardItem
             src={facial}
-            text='Body Treatments - coming soon!'
+            text='Aesthetics  - coming soon!'
             label='Treatments'
-            // path=''
+            path='/bodytreatments'
           />
         </ul>
       </div>
