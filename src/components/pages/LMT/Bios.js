@@ -1,35 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Bios.css';
-import BioItem from './BioItem';
 import BioSection from './BioSection';
-import Heather from '../../../images/Heather.jpg';
-import Kendra from '../../../images/Kendra.jpg';
+import HeatherBio from './HeatherBio';
 
 function Bios() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
   return (
    <> <div className='Bios'></div>
            <BioSection />
       <div className='bio__container'>
-        {/* <div className='bio__wrapper'> */}
-          <ul className='bio__items'>
-
-          <BioItem
-              src={Heather}
-              text='Heather Fowler, Owner'
-              label='Heather'
-              path='/HeatherBio'
-            />
-          </ul>
-          <ul className='bio__items'>
-          <BioItem
-              src={Kendra}
-              text='Kendra Waide, LMT'
-              label='Kendra'
-              path='/KendraBio'
-            />
-
-          </ul>
-        {/* </div> */}
+            <HeatherBio />
       </div>
     </>
   );
