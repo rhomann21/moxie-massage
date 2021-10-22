@@ -22,7 +22,15 @@ function HeroSection() {
                 >
                     Book Online Today
                 </Button>
-                <Button
+                <Button 
+                classname='btns' 
+                buttonStyle='btn--outline' 
+                buttonSize='btn--lrg'
+                onClick={{pathname: "https://na0.meevo.com/EgiftApp/home?tenantId=102988" }}  
+                >
+                    Gift Certificates
+                </Button>
+                {/* <Button
                 className='btns'
                  buttonStyle='btn--primary'
                  buttonSize='btn--large'
@@ -30,7 +38,7 @@ function HeroSection() {
                 > 
                 Give us a call
                 <i className='fa fa-phone' />
-                </Button>
+                </Button> */}
                 
             </div>
         </div>
