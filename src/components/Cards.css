@@ -130,7 +130,13 @@ h1 {
   }
   .cards__item__external {
     margin-bottom: 2rem;
+  }
+  .cards__item__text {
+    font-size: 2rem;
+  }
 
+  .cards__item__text__external {
+    font-size: 2rem;
   }
 }
 
@@ -148,5 +154,12 @@ h1 {
 
   .cards__container {
     margin: 0
+  }
+  .cards__item__text {
+    font-size: 1.5rem;
+  }
+
+  .cards__item__text__external {
+    font-size: 1.5rem;
   }
 }
