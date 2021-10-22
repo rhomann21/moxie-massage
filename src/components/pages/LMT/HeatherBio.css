@@ -94,7 +94,7 @@
       }
 
       .Heather__pic__container {
-        margin-top: 2rem;
+        display: none;
       }
       
       /* .Heather__pic{
@@ -106,10 +106,25 @@
       } */
 
     }
+
+    
     @media screen and (max-width: 600px) {
-      .HeatherBio > h1 {
-        margin-top: -14rem;
-        font-size: 90px;
-        line-height: 5rem;
+      .Heather__bio__container {
+        width: auto;
+        margin-top: 8rem;
       }
+
+      .HeatherOwnerWrap {
+        margin-left:auto;
+        margin-top: 6rem;
+      }
+      .HeatherNameWrap {
+        margin-left: -10%;
+      }
+
+      .Heather__pic {
+        display: none;
+      }
+
     }
+  
