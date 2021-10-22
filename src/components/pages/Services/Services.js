@@ -33,7 +33,7 @@ function Services() {
           />
           <CardItem
             src={facial}
-            text='Aesthetics  - coming soon!'
+            text='Facials'
             label='Treatments'
             path='/bodytreatments'
           />
