@@ -3,9 +3,6 @@
     background: #fff;
   }
   
-  h1 {
-    text-align: center;
-  }
   
   .membership__cards__container {
     display: flex;
@@ -44,7 +41,6 @@
   .membership__cards__item__title {
     display: flex;
     justify-content: center;
-    text-align: center;
     background: #8fd0b4;
     position: relative;
     margin-bottom: 1rem;
@@ -85,12 +81,21 @@
     line-height: 24px;
     padding: 10px;  
   }
+  .membership__text__container {
+    padding-top: 4rem;
+    margin: auto;
+  }
 
-  
+  .membership__text__container > p {
+    font-size: 1rem;
+  }
   
   @media only screen and (max-width: 1024px) {
     .membership__cards__item {
       margin-bottom: 2rem;
+    }
+    .membership__text__container > p {
+      font-size: 1.5rem;
     }
   }
   
@@ -123,9 +128,23 @@
 
   @media only screen and (max-width: 600px) {
     .membership__cards__item__title::after {
-      font-size: 9vw;
+      font-size: 1.75rem;
       /* display: -webkit-inline-box; */
     word-wrap: break-word;
     }
-    
+    .membership__intro__text > p {
+      font-size: 1.5rem;
+    }
+    .membership__intro__text > h1 {
+      font-size: 5rem;
+      margin-top: -1.5rem;
+      margin-bottom: 2rem;
+    }
+    .membership__text__container {
+      padding-top: 2rem;
+      margin: auto 1rem;
+    }
+    .membership__text__container > p {
+      font-size: 1rem;
+    }
   }

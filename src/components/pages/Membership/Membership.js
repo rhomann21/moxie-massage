@@ -35,14 +35,19 @@ function Membership() {
      <p> One low monthly fee can get you an all access pass to massage, yoga, and our goodies in store. Let's get real - don't you deserve to feel</p>
      <h1>good?</h1>
       </div>
+      <div className='membership__text__container'>
+       <p>Due to our scheduling software, memberships are currently not available to be purchase online. Please see us in store or give us a call to sign up today!</p>
+       <br />
+       <p>An email, phone number, and credit card are required for membership sign up. </p>
+    </div>
       <div className='membership__cards__container'>
         <div className='membership__cards__wrapper'>
           <ul className='membership__cards__items'>
             <MembershipCardItem
                title='Moxie Member'
                label='Tier 1 - $80/month'
-              text='Option 1: 1 hour Swedish massage + 1 yoga class.'
-              text2='Option 2: 1 hour deep tissue massage  + 1 yoga class.'
+              text='Option 1: 1 hour Swedish massage'
+              text2='Option 2: 1 hour deep tissue massage'
             />           
        <MembershipCardItem         
                title='More Moxie'
@@ -60,16 +65,14 @@ function Membership() {
        <MembershipCardItem
                title='Maximum Moxie'
                label='Tier 4 - $140/month'
-              text='Option 1: 1 hour Swedish massage + facial OR cupping OR 20% off.'
-              text2='Option 2: 1 hour Deep Tissue + facial OR cupping OR 20% off.'
+              text='Option 1: 1 hour Swedish massage + Moxie facial OR cupping OR 20% off.'
+              text2='Option 2: 1 hour Deep Tissue + Moxie facial OR cupping OR 20% off.'
             /> 
          </ul>
         </div>
       </div>
 
-    <div className='membership__text__container'>
-       <p>An email, phone number, and credit card are required for membership sign up. </p>
-    </div>
+
  </div>
  </>
     )}
