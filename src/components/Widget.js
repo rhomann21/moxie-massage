@@ -17,7 +17,7 @@ class Widget extends React.Component {
 			<div id="lastMinute">
 			<div id="lastMinuteBtn">
 				<div className="sm-col-1">
-					<h1><b>SEE OUR</b></h1>
+					<h1><b>See Our</b></h1>
 					<h2>Last-Minute<br />Openings!</h2>
 						
 				</div>
