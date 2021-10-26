@@ -4,10 +4,11 @@ import './HeroSection.css';
 import '../App.css';
 import logo from '../images/Moxie_logo.png';
 import logo2 from '../images/Moxie_logo_stack.png';
+import Widget from './Widget';
 
 
 function HeroSection() {
-    return (
+    return (    
         <div className='hero-container'>
             <img className='logo2' src={logo2} alt='logo2'/>
             <img className='logo' src={logo} alt='logo'/>
@@ -39,7 +40,7 @@ function HeroSection() {
                 Give us a call
                 <i className='fa fa-phone' />
                 </Button> */}
-                
+                <Widget />
             </div>
         </div>
     )
