@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import './Bios.css';
 import BioSection from './BioSection';
 import HeatherBio from './HeatherBio';
+import KendraBio from './KendraBio';
+import MargieBio from './MargieBio';
 
 function Bios() {
 
@@ -15,6 +17,8 @@ function Bios() {
            <BioSection />
       <div className='bio__container'>
             <HeatherBio />
+            <KendraBio />
+            <MargieBio />
       </div>
     </>
   );
