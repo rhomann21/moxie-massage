@@ -1,6 +1,21 @@
 import React from 'react';
 
 class Widget extends React.Component {
+
+	constructor(props){
+		super(props)
+		this.state = {
+			hidePopUp: false
+		}
+		this.handleClick = this.handleClick.bind(this)
+	  }
+	  
+	  
+	  handleClick(){
+		this.setState({hidePopUp: true})
+	  }
+
+
 	componentDidMount() {
 		const script = document.createElement("script");
 		script.src = "https://getreach.ai/widget/moxiemassage/custom.js";
@@ -10,8 +25,13 @@ class Widget extends React.Component {
 		document.body.appendChild(script);
 	  }
 
-	  
+	  //need to set state as open/unopen and then be able to toggle upon onclick
+
+
+
 	render() {
+
+
 		return (
 		<div>
 			<div id="lastMinute">
@@ -29,7 +49,9 @@ class Widget extends React.Component {
 					Click Here</a> 
 				</div>
 				</div>
-			<i className="fa fa-times-circle close-btn" onclick="document.getElementById('lastMinute').style.display = 'none';"></i>
+			<i className="fa fa-times-circle close-btn" 
+				onclick={this.handleClick}
+				></i>
 			</div>
 		</div>
 	)
