@@ -10,8 +10,9 @@ import Widget from './Widget';
 function HeroSection() {
     return (    
         <div className='hero-container'>
-            <img className='logo2' src={logo2} alt='logo2'/>
-            <img className='logo' src={logo} alt='logo'/>
+            <div className='mainLogoHeroSection'><h1>Moxie Massage</h1></div>
+            {/* <img className='logo2' src={logo2} alt='logo2'/>
+            <img className='logo' src={logo} alt='logo'/> */}
             <p>Don't you deserve to feel good?</p>
 
             <div className="hero-btns">
