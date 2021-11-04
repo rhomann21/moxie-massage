@@ -11,6 +11,7 @@ function TermsOfService() {
   return (
 
     <div className='termsOfService'><h3>Terms of Service</h3>
+    <br />
       <div className='terms__container'>
         <div className='commitment__container'>
             

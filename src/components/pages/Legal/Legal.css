@@ -1,9 +1,20 @@
 
-.adapolicy, .termsOfService, .privacypolicy > h3 {
+.termsOfService > h3 {
+    font-size: xx-large;
+}
+.privacypolicy > h3 {
     display: flex;
     justify-content: center;
     margin: 1rem;
     margin-top: 3rem;
+    font-size: 3rem;
+}
+
+.adapolicy> h3 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-top: 2rem;
     font-size: 3rem;
 }
 
@@ -16,8 +27,6 @@
 
 .adapolicy, .termsOfService, .privacypolicy > p {
     display: flex;
-    justify-content:left;
-    align-items: left;
     margin: 2rem; 
     font-size:medium;
 }
@@ -31,13 +40,20 @@
     font-size: large;
 }
 
+.commitment__container > p {
+    font-size: larger;
+    display: flex;
+}
+
 .ada__contact__container > p {
     align-items: center;
     justify-content: center;
+    font-size: larger;
+    margin-bottom: 2rem;;
 }
 
 
-.update__container,
+/* .update__container,
 .policy__info__container,
 .int__and__def__container,
 .collection___and__usage__container,
@@ -49,13 +65,30 @@
  {
     margin-bottom: 2rem;
    
-}
+} */
 
 
 @media screen and (max-width: 768px) {
-    .commitment__container,
-    .ada__contact__container,
-    .terms__container {
+    .ada__contact__container {
     margin: 3rem;
 }
+}
+@media screen and (max-width: 600px) {
+    .adapolicy> h3 {
+        font-size: 2rem;
+    }
+    .privacy__container {
+        margin: 3rem;
+    }
+    .commitment__container {
+        width: 100%;
+        display: block;
+    }
+    .commitment__container > p {
+        width: 100%;
+        font-size:medium;
+    }
+    .terms__container {
+        margin: 2rem;
+    }
 }
