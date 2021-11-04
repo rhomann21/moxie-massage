@@ -1,4 +1,4 @@
-  h1 {
+  /* h1 {
     text-align: center;
   }
   
@@ -119,20 +119,22 @@
     }
 
     .massages__items {
-      width: 80%;
+
       margin: auto;
+      margin-bottom: 2rem;
     }
 
     .massages__item__title__wrap {
       font-size: 5vw;
       line-height: normal;
-      /* padding-left: 1rem; */
+
       word-wrap: break-word;
       display: table;
      }
      
      .massages__item__text {
-       font-size: 4vw;
+       font-size: 5vw;
+       line-height: 2.2rem;
      }
   
   }
@@ -165,4 +167,4 @@
     
   }
 
-  
+   */

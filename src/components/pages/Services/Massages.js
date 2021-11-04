@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
 import '../../../App.css';
 import MassageCardItem from './MassageCardItem';
-import './MassageItems.css';
-import { Button } from '../../Button';
-
 
 
 
@@ -107,20 +104,9 @@ function Massages() {
             time2='90 Minute : '
             price1='$100'
             price2='$140'
-            text='Using basalt or pink Himalayan salt stones, penetrating heat from the smooth stones is used to relieve pain and tension.'
+            text='Using basalt or pink Himalayan salt stones, penetrating heat from the smooth stones is used to relieve pain and tension. Hot stones, when combined with massage, encourages blood flow throughout the body.'
             />
             </ul>
-
-            {/* <ul className='massages__items'>
-            <MassageCardItem
-            title='Hot Stone Massage'
-            time1='60 Minute : '
-            time2='90 minute : '
-            price1='$100'
-            price2='$140'
-            text='Using basalt or pink Himalayan salt stones, penetrating heat from smooth stones is used to relieve pain and tension.'
-            />
-          </ul> */}
           <ul className='massages__items'>
             <MassageCardItem
             title='Perfect Pregnancy Massage'
@@ -156,7 +142,7 @@ function Massages() {
             title='Couples Massage'
             time1='60 minute : '
             price1='$160'
-              text='Let us know what you and your plus one need! Swedish, pain relief, deep tissue, deep rest, and fix-it are available in this package.'
+              text='Let us know what you and your plus one need! Our rooms have a sliding door between them so you can experience relaxation together or in a more private setting. All massages available for couples.'
             />
           </ul>
           <ul className='massages__items'>
@@ -164,7 +150,7 @@ function Massages() {
             title='TMJ Massage for Deep Healing'
             time1='30 minute : '
             price1='$55'
-              text='This massage uses specific protocol for temporomandibular joint disfunction - helps to relieve migraines and teeth grinding.'
+              text='This massage uses specific protocol for temporomandibular joint disfunction, which helps to relieve migraines and teeth grinding. We focus primarily on the jaw, neck, and head to reduce your discomfort.'
             />
           </ul>
         <ul className='massages__items'>

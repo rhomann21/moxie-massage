@@ -1,25 +1,5 @@
 import React, { Component }from 'react';
 import { Button } from '../../Button';
-import './MassageItems.css';
-// import ServiceListDB from '../../ServiceList.json';
-
-//if id equals  one two or three, return one two or three
-// if id equals one, return all one props
-//if id equals two, return all two props etc
-
-// export function DropDown() {
-//     const [time, timeChoice] = useState()
-// }
-// export function MassageChoice(m) {
-//   // e.preventDefault();
-//   let massageListChoices = ServiceListDB.map(item => (
-//     console.log(item)
-//   ))
-//     console.log(massageListChoices)
-// };
-
-//set the state with the time, then use effect to set times in dropdown 
-//onchange / onclick 
 
 
 function MassageCardItem(props){
