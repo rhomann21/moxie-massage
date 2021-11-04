@@ -27,7 +27,7 @@ function MargieBio() {
               <p>"20 years ago, someone asked me, 'Why don't you drop out of university to do massage? Because you're really good at it.' At the time, it never occured to me as a potential profession, it was just sometrhing I did for friends for fun. I wasn't ready for it. Several years ago, it kind of fell ito my lap when I needed it to, and I've been healing with these hands ever since."</p>
               <br />
               <p>Contact Margie directly by calling</p>
-              <p>309.252.2573</p>
+              <p>309.252.2573<a href="tel:13092522573"><i class="fas fa-phone"></i></a></p>
             </div>
         </div>
         </div>

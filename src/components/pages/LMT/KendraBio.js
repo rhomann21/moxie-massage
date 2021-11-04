@@ -33,7 +33,7 @@ function KendraBio() {
               and is excited to be part of Moxie Massage!</p>
               <br />
               <p>Contact Kendra directly by calling</p>
-              <p>217.652.8157</p>
+              <p>217.652.8157<a href="tel:12176528157"><i class="fas fa-phone"></i></a></p>
             </div>
         </div>
       </div>
