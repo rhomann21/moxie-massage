@@ -255,11 +255,45 @@ h1 {
   margin: 6rem;
 }
 
+.yogaWrapper {
+  display: block;
+  margin: 4rem;
+  width: auto;
+  flex-wrap: wrap;
+  color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #8fd0b4, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
 
 .yogaTextContainer  {
   display: block;
   width: 100%;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
 
+.yogaFacebookBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.yogaTitleText > p {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 360px) { 
+  .yogaTitleText > p {
+    font-size: 1.5rem;
+  }
+  .yogaWrapper {
+    width: auto;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
 }

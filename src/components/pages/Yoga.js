@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import '../../App.css';
+import { Button } from '../Button';
 
 
 
@@ -45,9 +46,24 @@ function Yoga() {
    <div className='yogaWrapper'>
       <div className='yogaTitleText'>
      <p> Now introducing Moxie Yoga! Beginner's classes are now available online or in studio at our Spa. No judgement, no pressure - just a good stretch and a great time.</p>
-      </div>
-      <div className='yogaFacebookContainer'>
-       <div class="fb-page" 
+     <br />
+     <p>Our classes are a little sporatic and a lot of fun, so check out our Facebook page for the latest updates on schedules.</p>
+      <br />
+ </div>
+      <div className='yogaFacebookBtnContainer'>
+        <Button
+            classname='btns' 
+            buttonStyle='btn--outline--blk' 
+            buttonSize='btn--lrg'
+            onClick={{pathname: "https://facebook.com/MoxieBacktini" }}  
+            target='_blank'
+            aria-label='Facebook'
+        >
+          Check out the latest info here
+          <br />
+          <i class='fab fa-facebook-f' />
+        </Button>
+       {/* <div class="fb-page" 
         data-href="https://www.facebook.com/MoxieBacktini/" 
         data-tabs="timeline" 
         data-width="" 
@@ -58,7 +74,7 @@ function Yoga() {
         data-show-facepile="false">
           <blockquote cite="https://www.facebook.com/MoxieBacktini/" class="fb-xfbml-parse-ignore">
             <a href="https://www.facebook.com/MoxieBacktini/">Moxie Massage</a></blockquote>
-          </div>
+          </div> */}
       </div>
 
  </div>
