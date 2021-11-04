@@ -7,7 +7,7 @@ import MassageCardItem from './MassageCardItem';
 
 function BodyTreatments() {
     return (
-        <><div><h1 className='bodytreatments'>Aesthetics </h1></div>
+        <><div><h1 className='bodytreatments'>Facials </h1></div>
         <div className='massages__container'>
         <div className='massages__wrapper'>
           <ul className='massages__items'>
