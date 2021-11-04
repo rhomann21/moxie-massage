@@ -45,9 +45,11 @@ function Yoga() {
    
    <div className='yogaWrapper'>
       <div className='yogaTitleText'>
-     <p> Now introducing Moxie Yoga! Beginner's classes are now available online or in studio at our Spa. No judgement, no pressure - just a good stretch and a great time.</p>
+     <h2> Now introducing Moxie Yoga!</h2>
+     <br /> 
+     <p> Beginner's classes are now available online or in studio at our Spa. No judgement, no pressure - just a good stretch and a great time.</p>
      <br />
-     <p>Our classes are a little sporatic and a lot of fun, so check out our Facebook page for the latest updates on schedules.</p>
+     <p>Our classes are a little sporatic but a lot of fun, so check out our Facebook page for the latest updates on schedules.</p>
       <br />
  </div>
       <div className='yogaFacebookBtnContainer'>
