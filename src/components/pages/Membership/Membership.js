@@ -32,11 +32,11 @@ function Membership() {
    
    <div className='membership__cards'>
       <div className='membership__intro__text'>
-     <p> One low monthly fee can get you an all access pass to massage, yoga, and our goodies in store. Let's get real - don't you deserve to feel</p>
-     <h1>good?</h1>
+        <p> One low monthly fee can get you an all access pass to massage, yoga, and our goodies in store. Let's get real - don't you deserve to feel</p>
+        <h1>good?</h1>
       </div>
       <div className='membership__text__container'>
-       <p>Due to our scheduling software, memberships are currently not available to be purchase online. Please see us in store or give us a call to sign up today!</p>
+       <p>***Due to our scheduling software, memberships are currently not available to be purchase online. Please see us in store or give us a call to sign up today!</p>
        <br />
        <p>An email, phone number, and credit card are required for membership sign up. </p>
     </div>
