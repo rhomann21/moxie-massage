@@ -1,23 +1,24 @@
 .Heather__bio__wrapper {
     position: initial;
-    margin-top: 10rem;
     display: flex;
     flex-flow: row;
     align-items: center;
     max-width: 1120px;
     width: 100%;
     flex-wrap: nowrap;
+    margin-top: 15%;
   }
 
+.flexWrapBio {
+  display: flex;
+}
 
 .Heather__pic__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  width: 38%;
+  margin-left: -6rem;
 }
 
 .HeatherTitleWrap {
@@ -54,7 +55,7 @@
     margin-bottom: 4rem;
     flex-wrap: wrap;
     color: black;
-    border-width: 3px;
+    border-width: 4px;
     border-style: solid;
     border-image: 
       linear-gradient(
@@ -64,16 +65,20 @@
       ) 1 100%;
   }
 
-    p {
-        text-align: center;
-        margin: 1rem;
-    }
+
+  /* changed this from universal to container specific, may cause issues */
+.Heather__bio__container > p {
+      text-align: center;
+      font-size: 1.25rem;
+      margin: 1rem;
+  }
 
 
     @media screen and (max-width: 768px) {
       .Heather__bio__container {
         width: 100%;
         margin-bottom: 3rem;
+        margin-top: -3rem;
       }
 
       .Heather__bio__container > p {
@@ -92,19 +97,24 @@
         font-size: 150px;
         line-height: 8rem;
       }
-
-      .Heather__pic__container {
-        display: none;
+      .flexWrapBio {
+        display: flex;
+        flex-direction: column;
       }
-      
-      /* .Heather__pic{
-          margin: 1rem;
-          border-style: solid;
-          border-width: 1px;
-          border-radius: 10px;
-          box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-      } */
+      .Heather__pic__container {
+        width: 60%;
+        margin-left: -3rem;
+        margin-top: 12rem;
+      }
 
+    }
+
+    @media screen and (max-width: 968px) {
+      .Heather__bio__container > p {
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem;
+    }
     }
 
     
@@ -112,6 +122,13 @@
       .Heather__bio__container {
         width: auto;
         margin-top: 8rem;
+      }
+      .Heather__bio__container > p {
+        font-size: 1rem;
+      }
+      .Heather__bio__container {
+        width: auto;
+        margin-top: -1rem;
       }
 
       .HeatherOwnerWrap {
@@ -121,9 +138,21 @@
       .HeatherNameWrap {
         margin-left: -10%;
       }
-
-      .Heather__pic {
-        display: none;
+      .HeatherNameWrap > h3 {
+        font-size: 2rem;
+        }
+      .HeatherOwnerWrap > h1 {
+        font-size: 6rem;
+        margin-top: -4rem;
+      }
+      .flexWrapBio {
+        display: flex;
+        flex-direction: column;
+      }
+      .Heather__pic__container {
+        width: 70%;
+        margin-left: 2rem;
+        margin-top: 12rem;
       }
 
     }

@@ -17,16 +17,21 @@ ul {
 
 .bioSection {
   padding: 3rem;
-  height: 60vh;
+  height: 55vh;
   background: rgb(36,36,36);
   background: linear-gradient(180deg, rgba(36,36,36,1) 3%, rgba(36,36,36,1) 77%, rgba(255,255,255,1) 100%);
 }
 
+.bioSectionTitleWrapper > h1 {
+  font-size: 7rem;
+}
+
 .bioSectionP > p {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: white;
   margin-top: -.5rem;
   padding-bottom: 6rem;
+  text-align: center;
 }
 
 .bio__container {
@@ -46,7 +51,7 @@ ul {
 /*Bio items is container for cards*/
   
 /*card (individ)*/
-.bio__items {
+/* .bio__items {
   margin: 2rem;
   border-radius: 10px; 
   background-color: white;
@@ -57,26 +62,26 @@ ul {
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
-}
+} */
 
 
 /* card as a whole */
-  .bio__item__link {
+  /* .bio__item__link {
     border-radius: 10px; 
     overflow: hidden;
     text-decoration: none;
-  }
+  } */
   
   /*picture*/
-  .bio__item__pic-wrap {
+  /* .bio__item__pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
-  }
+  } */
     
   /*actual image in wrap*/
-  .bio__item__img {
+  /* .bio__item__img {
     position: absolute;
     top: 0;
     right: 0;
@@ -89,26 +94,26 @@ ul {
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
-  }
+  } */
 
-  .fade-img {
+  /* .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
   }
   
   .bio__item__img:hover {
     transform: scale(1.1);
-  }
+  } */
   
   /*text container with name*/
-  .bio__item__info {
+  /* .bio__item__info {
     padding: 20px 30px 30px;
-  }
+  } */
   /*Name text*/
-  .bio__item__text {
+  /* .bio__item__text {
     color: #252e48;
     font-size: 3vw;
-  }
+  } */
 
 
 /* 
@@ -137,7 +142,7 @@ ul {
     }
     .bioSection {
       padding: 3rem;
-      height: 85vh;
+      height: 70vh;
     }
     .bioSectionP > p {
       padding-top: 2rem;
@@ -153,7 +158,7 @@ ul {
       display: block;
     }
 
-    .bio__items {
+    /* .bio__items {
       margin: 2rem;
       display: flex;
       flex-flow: column;
@@ -162,7 +167,7 @@ ul {
     .bio__item__text {
       font-size: 7vw;
       line-height:5vh
-    }
+    } */
 
     .Bios > h1 {
       color: #8fd0b4;
@@ -173,7 +178,7 @@ ul {
       text-shadow: 0px 3px 4px black;
   }
     .bioSection {
-      margin: -1rem;
+      height: 85vh;
     }
 
     .bioSectionTitleWrapper > h1 {

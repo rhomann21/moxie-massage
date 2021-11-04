@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import './KendraBio.css';
-import Kendra from '../../../images/Kendra.jpg';
+import Kendra from '../../../images/KendraClose.jpg';
 
 function KendraBio() {
 
@@ -19,12 +18,11 @@ function KendraBio() {
             <h3>Kendra Waide,</h3>
           </div>
       </div>
-      
-        <div className='Heather__bio__wrapper'>
-        <div className="Heather__pic__container">
+      <div className='flexWrapBio'>
+      <div className="Heather__pic__container">
               <img className='Heather__pic' src={Kendra} alt='Kendra'></img>
-        </div>
-        
+      </div>
+        <div className='Heather__bio__wrapper'>
             <div className='Heather__bio__container'>
               <p>Kendra became licensed in 2019 after graduating from Lincoln Land
               Community College - Capital City Training Center and becoming
@@ -34,9 +32,11 @@ function KendraBio() {
               the title of Reiki Master. She really loves to connect and help people
               and is excited to be part of Moxie Massage!</p>
               <br />
+              <p>Contact Kendra directly by calling</p>
               <p>217.652.8157</p>
             </div>
         </div>
+      </div>
     </div>
     </>
   );
