@@ -2,8 +2,6 @@ import React from 'react';
 import { Button } from './Button';
 import './HeroSection.css';
 import '../App.css';
-import logo from '../images/Moxie_logo.png';
-import logo2 from '../images/Moxie_logo_stack.png';
 import Widget from './Widget';
 
 
