@@ -12,7 +12,9 @@ class Widget extends React.Component {
 	  
 	  
 	  handleClick(){
-		this.setState({hidePopUp: true})
+		this.setState(
+			{hidePopUp: true}
+			)
 	  }
 
 
