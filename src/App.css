@@ -112,15 +112,9 @@ h1 {
   justify-content: center;
 }
 
-.yoga {
-  background-image: url('/src/images/yogabnw.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;}
 
-.yoga__text__wrapper {
+
+/* .yoga__text__wrapper {
     background-color:white;
     padding: 4rem 0 2rem 0;
     display: flex;
@@ -129,7 +123,7 @@ h1 {
     align-items: center;
     max-width: 1120px;
     margin: 0 auto;
-}
+} */
 
 
 .contact {
@@ -153,19 +147,6 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
-/* .HeatherBio {
-  background-image: url('/src/images/buddhabw.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #8fd0b4;
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-} */
-
 
 
 .bodytreatments {
@@ -255,10 +236,21 @@ h1 {
   margin: 6rem;
 }
 
+/* YOGA */
+
+.yoga {
+  background-image: url('/src/images/yogabnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;}
+
 .yogaWrapper {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   margin: 4rem;
-  width: auto;
   flex-wrap: wrap;
   color: black;
   border-width: 3px;
@@ -281,19 +273,200 @@ h1 {
 .yogaFacebookBtnContainer {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .yogaTitleText > p {
   font-size: 2rem;
+  text-align: center;
+}
+.yogaTitleText > h2 {
+  text-align: center;
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 600px) { 
   .yogaTitleText > p {
     font-size: 1.5rem;
+    text-align: center;
+  }
+  .yogaTitleText > h2 {
+    text-align: center;
+    font-size: 2rem;
   }
   .yogaWrapper {
-    width: auto;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin: 2rem;
   }
 }
+
+
+/* ---------------MASSAGES / MASSAGE ITEMS------------- */
+h1 {
+  text-align: center;
+}
+
+.massages__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.massages__wrapper {
+  align-items: center;
+  justify-content: center;
+}
+
+.massages__item {
+  margin-bottom: 24px;
+  display: contents;
+}
+
+
+.massages__item__card {
+    display: flex;
+    flex-flow: column;
+    margin: 1rem;
+    box-shadow: 0 6px 20px rgba(0, 105, 82, 0.384);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+
+.massages__item__title__wrap {
+display: flex;
+justify-content: center;
+text-align: center;
+background: #8fd0b4;
+position: relative;
+margin-bottom: 1rem;
+height: 5rem;
+font-size: 3rem;
+overflow: hidden;
+align-items: center;
+}
+
+
+.massages__item__text {
+  color: #252e48;
+  font-size:1.25vw;
+  line-height: 24px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.massage__item__pricing {
+  display: flex;
+  justify-content: center;
+  color: #252e48;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 5px;
+
+}
+
+.massages__item__button {
+ display: flex;
+ justify-content: center;
+ padding: .5rem;
+} 
+
+.massages__item__button {
+ margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .massages__items {
+    display: flex;
+  }
+  .massages__item {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .massages > h1 {
+      font-size: 9rem;
+      margin-top: 25px;
+  }
+  .massages__item__title__wrap {
+      font-size: 4vw;
+      width: 100%;
+      word-wrap: break-word;
+
+    }
+
+  .massages__item__text {
+    line-height: 1.75rem;
+  }
+  .massage__item__pricing {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .massages > h1 {
+      font-size: 8rem;
+      margin-top: 0px;
+      text-shadow: 4px 4px 3px black;
+  }
+
+  .massages__items {
+    /* width: 80%; */
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .massages__item__title__wrap {
+    font-size: 5vw;
+    line-height: normal;
+    /* padding-left: 1rem; */
+    word-wrap: break-word;
+    display: table;
+   }
+   
+   .massages__item__text {
+     font-size: 5vw;
+     line-height: 2.2rem;
+   }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .massages__item__text {
+    font-size: 4vw;
+  }
+
+  .massages__item__title__wrap {
+    font-size: 5.5vw;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+   }
+
+  .massage__item__pricing {
+    font-size: 4vw;
+  }
+
+  .bodytreatments {
+    background-position: initial;
+    background-size:cover;
+    text-shadow: 5px 4px 3px black;
+  }
+  
+}
+
