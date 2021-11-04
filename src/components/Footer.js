@@ -46,11 +46,6 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Who We Are</h2>
-            <Link to='/HeatherBio'>Heather Fowler</Link>
-            <Link to='/KendraBio'>Kendra Waide</Link>
-          </div>
-          <div class='footer-link-items'>
             <h2>Legal Stuff</h2>
             <Link to='/termsofservice'>Terms of Service</Link>
             <Link to='/privacypolicy'>Privacy Policy</Link>

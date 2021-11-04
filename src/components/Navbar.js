@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import smIcon from '../images/svg_icon.svg';
 
 function Navbar() {
     const [click, setClick] = useState(false);
