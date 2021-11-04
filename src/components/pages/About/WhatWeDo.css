@@ -1,19 +1,111 @@
-
-
-@media screen and (max-width: 768px) {
-    .wwd__content__wrapper {
-        margin: 2rem;
-    }
-    .wwd__pic {
-        display:none;
-    }
-    .wwd__text__wrapper > h1 {
-        line-height: 5rem;
-      }
-      
+.wwdWrapper {
+    position: initial;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    /* max-width: 1120px; */
+    width: 100%;
+    flex-wrap: nowrap;
+    /* margin-top: 15%; */
   }
 
-@media only screen and (max-width: 1024px) {
-    .wwd__pic__wrapper{
-        display: block;
-  }}
+
+.wwdTitleWrap {
+  margin-left: 0rem;
+  margin-top: 2rem;
+}
+.wwdWelcomeWrap {
+    margin-top: 60px;
+  }
+
+.wwdWelcomeWrap > h1 {
+    line-height: 50%;
+}
+
+.moxMassageWrap {
+display: flex;
+margin-left: 35%;
+}
+
+.moxMassageWrap > h3 {
+font-size: 3.5rem;
+}
+
+.wwdPContainer {
+    display: flex;
+    /* width: 75%; */
+    margin: 4rem;
+    flex-wrap: wrap;
+    color: black;
+    border-width: 4px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        #8fd0b4, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  }
+
+
+  /* changed this from universal to container specific, may cause issues */
+.wwdPContainer > p {
+      text-align: center;
+      font-size: 1.25rem;
+      margin: 1rem;
+  }
+
+
+    @media screen and (max-width: 768px) {
+      .wwdPContainer {
+        width: 100%;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+      }
+
+      .wwdPContainer > p {
+        font-size: 5vw;
+      }
+      .moxMassageWrap {
+        margin-left: 5rem;
+    }
+
+    }
+
+    @media screen and (max-width: 968px) {
+      .wwdPContainer > p {
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    }
+
+    
+    @media screen and (max-width: 600px) {
+      .wwdPContainer {
+        width: auto;
+        margin-top: 4rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+      }
+      .wwdPContainer > p {
+        font-size: 1rem;
+      }
+
+      .wwdWelcomeWrap {
+        margin-left:auto;
+        margin-top: 6rem;
+      }
+      .moxMassageWrap {
+        margin-left: 10%;
+      }
+      .moxMassageWrap > h3 {
+        font-size: 2rem;
+        }
+      .wwdWelcomeWrap > h1 {
+        font-size: 6rem;
+        margin-top: -4rem;
+      }
+
+    }
+  
