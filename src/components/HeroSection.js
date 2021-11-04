@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from './Button';
 import './HeroSection.css';
 import '../App.css';
-import Widget from './Widget';
+// import Widget from './Widget';
 
 
 function HeroSection() {
@@ -39,7 +39,7 @@ function HeroSection() {
                 Give us a call
                 <i className='fa fa-phone' />
                 </Button> */}
-                <Widget />
+                {/* <Widget /> */}
             </div>
         </div>
     )

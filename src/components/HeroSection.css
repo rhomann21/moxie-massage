@@ -15,6 +15,7 @@
     word-wrap: break-word;
 }
 
+
 .mainLogoHeroSection > h1 {
     font-size: 16rem;
 } 
@@ -30,6 +31,7 @@
 .hero-container > p {
     margin-top: 8px;
     color: #fff;
+    text-align: center;
     /* -webkit-text-stroke: 1px black; */
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
