@@ -161,4 +161,8 @@ h1 {
   .cards__item__text__external {
     font-size: 1.5rem;
   }
+
+  .cards {
+    margin: -2rem;
+  }
 }

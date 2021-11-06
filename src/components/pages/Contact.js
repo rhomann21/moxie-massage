@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import '../../App.css';
-import './Contact.css';
 import { Button } from '../Button';
 
 

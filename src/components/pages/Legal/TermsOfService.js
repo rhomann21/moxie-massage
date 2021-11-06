@@ -9,11 +9,12 @@ function TermsOfService() {
   }, [])
 
   return (
-
+<>
     <div className='termsOfService'><h3>Terms of Service</h3>
+    </div>
     <br />
       <div className='terms__container'>
-        <div className='commitment__container'>
+        <div className='termsText__container'>
             
        <p> PLEASE READ THE FOLLOWING TERMS OF SERVICE AGREEMENT CAREFULLY. BY ACCESSING OR USING OUR WEBSITE (HTTP://WWW.MOXIEMASSAGE.COM) OR OUR SERVICES, YOU HEREBY AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS AND ALL TERMS INCORPORATED HERIN BY REFERENCE. IT IS THE RESPONSIBILITY OF YOU, THE USER, CUSTOMER, OR PROSPECTIVE CUSTOMER TO READ THE TERMS AND CONDITIONS BEFORE PROCEEDING TO USE THIS SITE. IF YOU DO NOT EXPRESSLY AGREE TO ALL THE TERMS AND CONDITIONS, THEN PLEASE DO NOT ACCESS OR USE OUR SITE OR OUR SERVICES.
 
@@ -320,8 +321,8 @@ and affiliates</p>
 
         </div>
       </div>
-    </div>
 
+</>
 
   );
 };

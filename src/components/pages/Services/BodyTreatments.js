@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../../App.css';
-import './MassageItems.css';
 import MassageCardItem from './MassageCardItem';
 // import { Button } from '../../Button';
 

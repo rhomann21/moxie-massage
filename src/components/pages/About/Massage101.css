@@ -1,4 +1,4 @@
-.massage101__list__wrapper > ol {
+/* .massage101__list__wrapper > ol {
     line-height: 2rem;
     list-style-type: circle;
     list-style: circle;
@@ -7,14 +7,11 @@
 
 }
 
-
-
-
 .massage101__container {
     display: flex;
     flex-direction: column;
     margin: 2rem;
-    /* width: 50%; */
+
 }
  
 .massage101__text__wrap {
@@ -33,8 +30,8 @@
 .massage101__p__wrap > p {
     font-weight: bolder;
 }
-/* 
-Figure out why rem won't change - media query wrong? */
+
+Figure out why rem won't change - media query wrong?
 
 @media screen and (max-width: 768px) {
     .massage101__p__wrap {
@@ -57,4 +54,4 @@ Figure out why rem won't change - media query wrong? */
     }
     
 
-  }
+  } */

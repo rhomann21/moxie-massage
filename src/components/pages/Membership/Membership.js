@@ -63,7 +63,7 @@ function Membership() {
               text2='Option 2: 90 min Deep Tissue massage + 1 yoga class OR 10% off.'
             /> 
        <MembershipCardItem
-               title='Maximum Moxie'
+               title='Max Moxie'
                label='Tier 4 - $140/month'
               text='Option 1: 1 hour Swedish massage + Moxie facial OR cupping OR 20% off.'
               text2='Option 2: 1 hour Deep Tissue + Moxie facial OR cupping OR 20% off.'

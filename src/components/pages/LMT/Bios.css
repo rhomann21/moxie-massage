@@ -1,8 +1,3 @@
- 
-ul {
-  list-style-type: none;
-}
-
 .Bios {
     background: url('/src/images/centerLmtBnw.jpg');
     background-position:top;
@@ -48,76 +43,7 @@ ul {
   position: relative;
 }
 
-/*Bio items is container for cards*/
-  
-/*card (individ)*/
-/* .bio__items {
-  margin: 2rem;
-  border-radius: 10px; 
-  background-color: white;
-  display: flex;
-  flex-flow: column;
-  width: 45%;
-  box-shadow: 0 6px 20px rgba(0, 105, 82, 0.384);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
-} */
-
-
-/* card as a whole */
-  /* .bio__item__link {
-    border-radius: 10px; 
-    overflow: hidden;
-    text-decoration: none;
-  } */
-  
-  /*picture*/
-  /* .bio__item__pic-wrap {
-    position: relative;
-    width: 100%;
-    padding-top: 67%;
-    overflow: hidden;
-  } */
-    
-  /*actual image in wrap*/
-  /* .bio__item__img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    transition: all 0.2s linear;
-  } */
-
-  /* .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
-  }
-  
-  .bio__item__img:hover {
-    transform: scale(1.1);
-  } */
-  
-  /*text container with name*/
-  /* .bio__item__info {
-    padding: 20px 30px 30px;
-  } */
-  /*Name text*/
-  /* .bio__item__text {
-    color: #252e48;
-    font-size: 3vw;
-  } */
-
-
-/* 
-  MEDIA Q */
+/*  MEDIA Q */
 
   @media screen and (max-width: 1024px) {
     .Bios {
@@ -125,6 +51,7 @@ ul {
     }
     .bioSection {
       padding: 3rem;
+      height: 75vh;
     }
 
     .bioSectionTitleWrapper > h1 {
@@ -157,17 +84,6 @@ ul {
     .bio__wrapper {
       display: block;
     }
-
-    /* .bio__items {
-      margin: 2rem;
-      display: flex;
-      flex-flow: column;
-      width: 100%;
-    }
-    .bio__item__text {
-      font-size: 7vw;
-      line-height:5vh
-    } */
 
     .Bios > h1 {
       color: #8fd0b4;

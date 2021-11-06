@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
-import './WhatWeDo.css';
 import '../../../App.css';
-import kendraHands from '../../../images/kendraHandsEdit.jpg';
 
 
 export default function WhatWeDo()
@@ -25,7 +23,7 @@ export default function WhatWeDo()
         </div>
         <div className='wwdWrapper'>
             <div className='wwdPContainer'>
-                <p> Moxie Massage began it’s journey 17 years ago with a dream, a hearty amount of determination, and unbelievable passion. Since then, we have grown into a multi-faceted small business offering everything from adorable tote bags to beginner’s yoga classes.</p>
+                <p> Moxie Massage began its journey 17 years ago with a dream, a hearty amount of determination, and unbelievable passion. Since then, we have grown into a multi-faceted small business offering everything from adorable tote bags to beginner’s yoga classes.</p>
 
                 <p>Moxie Massage, voted best Massage therapists in Springfield, IL - welcomes you to experience what everyone is talking about, and see for yourself what it is like to feel good again.</p>
 

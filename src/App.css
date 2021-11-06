@@ -14,6 +14,7 @@ h1 {
   font-size: 130px;
   font-weight:lighter;
   text-shadow: 0px 3px 4px black;
+  text-align: center;
 }
 
 * {
@@ -24,12 +25,7 @@ h1 {
   font-stretch:extra-condensed;
 }
 
-.home,
-/* .massages,  */
-.services,
-.yoga,
-.contact,
-.bodytreatments,
+/* ------------------------------MEMBERSHIP----------------------------- */
 .membership {
   background-image: url('/src/images/hotstonebnw.jpg');
   background-position: center;
@@ -83,15 +79,22 @@ h1 {
   margin: auto;
 }
 
+/* -----------------------------SERVICES--------------------------------- */
+
 .services {
   background-image: url('/src/images/oilmassage-svg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #8fd0b4;
-  font-size: 12rem;
-  text-shadow: 5px 4px 3px black;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
 }
+
+/* ---------------------------------PRODUCTS------------------------------------ */
 
 .products {
   background-image: url('/src/images/products2bnw.jpg');
@@ -106,59 +109,9 @@ h1 {
   font-size: 100px;
 
 }
-
-
 .product__p__wrapper > p {
   justify-content: center;
 }
-
-
-
-/* .yoga__text__wrapper {
-    background-color:white;
-    padding: 4rem 0 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1120px;
-    margin: 0 auto;
-} */
-
-
-.contact {
-  background-image: url('/src/images/contact.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #8fd0b4;
-  font-size: 100px;
-}
-
-.massages {
-  background-image: url('/src/images/massagebnw.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #8fd0b4;
-  font-size: 100px;
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.bodytreatments {
-  background-image: url('/src/images/facialbnw.jpg');
-  background-position: center;
-  background-size:auto;
-  background-repeat: no-repeat;
-  color: #8fd0b4;
-  font-size: 100px;
-  margin-bottom: 1rem;
-}
-
 .product__text__wrapper {
   display: flex;
   justify-content: center;
@@ -168,35 +121,48 @@ h1 {
   text-align: center;
 }
 
+/* -----------------------------------CONTACT------------------------------------ */
 
-.massage101 {
-  background-image: url('/src/images/hands_bnw.jpg');
+.contact {
+  background-image: url('/src/images/contact.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #8fd0b4;
-  text-shadow: 2px 2px black;
-  font-size: 120px;
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
+  font-size: 100px;
 }
-
-.testimonials {
-  background-image: url('/src/images/testimonial_bnw.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #8fd0b4;
-  font-size: 120px;
+.contact__wrapper {
   display: flex;
-  height: 90vh;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
+
 }
 
-/* WHAT WE DO PAGE IN ABOUT SECTION */
+.contact__buttons__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.contact__buttons {
+  display: flex;
+  margin: 2rem;
+}
+
+
+.fa {
+  margin-left: .25rem;
+}
+
+
+/*--------------------- WHAT WE DO PAGE IN ABOUT SECTION ------------------------*/
 
 .wwd {
   background-image: url('/src/images/wwd_bnw.jpg');
@@ -211,40 +177,143 @@ h1 {
   justify-content: center;
 }
 
-.wwd__pic {
-  margin: 1rem;
-  border-radius: 5px;
-  border-color: black;
-  max-width: 14rem;
-}
-
-.wwd__pic__wrapper {
-  display: contents;
-}
-
-.wwd__text__wrapper > h3 {
-  justify-content: center;
-  text-align: center;
-  margin: 3rem;
-  font-size:x-large;
-  
-}
-
-.wwd__content__wrapper {
+.wwdWrapper {
+  position: initial;
   display: flex;
-  flex-direction:row;
-  margin: 6rem;
+  flex-flow: row;
+  align-items: center;
+  width: 100%;
+  flex-wrap: nowrap;
 }
 
-/* YOGA */
+.wwdTitleWrap {
+margin-left: 0rem;
+margin-top: 2rem;
+}
+.wwdWelcomeWrap {
+  margin-top: 60px;
+}
+
+.wwdWelcomeWrap > h1 {
+  line-height: 50%;
+}
+
+.moxMassageWrap {
+display: flex;
+margin-left: 35%;
+}
+
+.moxMassageWrap > h3 {
+font-size: 3.5rem;
+}
+
+.wwdPContainer {
+  display: flex;
+  margin: 4rem;
+  flex-wrap: wrap;
+  color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #8fd0b4, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+/* changed this from universal to container 
+specific, may cause issues */
+.wwdPContainer > p {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .wwd {
+    font-size: 10rem;
+  }
+  .wwdPContainer > p {
+    font-size: 2rem;
+  }
+  .moxMassageWrap > h3 {
+    font-size: 6rem;
+  }
+  .moxMassageWrap {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wwdPContainer {
+    width: 100%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  .wwdPContainer > p {
+    font-size: 5vw;
+  }
+  .moxMassageWrap {
+    margin-left: 5rem;
+}
+
+}
+
+@media screen and (max-width: 968px) {
+.wwdPContainer > p {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+}
+  
+@media screen and (max-width: 600px) {
+  .wwdPContainer {
+    width: auto;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .wwdPContainer > p {
+    font-size: 1rem;
+  }
+
+  .wwdWelcomeWrap {
+    margin-left:auto;
+    margin-top: 6rem;
+  }
+  .moxMassageWrap {
+    margin-left: 10%;
+  }
+  .moxMassageWrap > h3 {
+    font-size: 2rem;
+    }
+  .wwdWelcomeWrap > h1 {
+    font-size: 6rem;
+    margin-top: -4rem;
+  }
+  .wwd {
+    font-size: 5rem;
+  }
+
+}
+
+/*------------------------------------ YOGA------------------------------ */
 
 .yoga {
   background-image: url('/src/images/yogabnw.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;}
+  color: #8fd0b4;
+  font-size: 100px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
 
 .yogaWrapper {
   display: flex;
@@ -300,9 +369,32 @@ h1 {
 }
 
 
-/* ---------------MASSAGES / MASSAGE ITEMS------------- */
-h1 {
-  text-align: center;
+/* -----------------------MASSAGES / MASSAGE ITEMS / BODY TREATMENTS------------- */
+
+.bodytreatments {
+  background-image: url('/src/images/facialbnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.massages {
+  background-image: url('/src/images/massagebnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  font-size: 100px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .massages__container {
@@ -422,7 +514,6 @@ align-items: center;
   }
 
   .massages__items {
-    /* width: 80%; */
     margin: auto;
     margin-bottom: 2rem;
   }
@@ -430,7 +521,6 @@ align-items: center;
   .massages__item__title__wrap {
     font-size: 5vw;
     line-height: normal;
-    /* padding-left: 1rem; */
     word-wrap: break-word;
     display: table;
    }
@@ -470,3 +560,145 @@ align-items: center;
   
 }
 
+/* -----------------------------------------CORONA SECTION----------------------- */
+.corona {
+  padding: 3rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%)
+}
+
+.corona__wrapper > h3 {
+  text-align: center;
+  color: white;
+}
+
+.corona__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.corona__wrapper {
+  max-width: 100%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 960px) {
+  .corona__wrapper > h3 {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .corona__wrapper > h3 {
+    font-size: 1rem;
+  }
+}
+
+
+/* ----------------------------------MASSAGE 101---------------------------------- */
+
+.massage101 {
+  background-image: url('/src/images/hands_bnw.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8fd0b4;
+  text-shadow: 2px 2px black;
+  font-size: 120px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.massage101__list__wrapper > ul {
+  margin-left: 15%;
+  font-size: 2rem;
+}
+.m101Closing {
+  display: flex;
+  text-align: center;
+  margin: 2rem;
+  margin-bottom: 6rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.m101HeadlineWrap {
+  margin-left: 10%;
+}
+.m101HeadlineWrap > h3 {
+  font-size: 4rem;
+  margin-left: 10%;
+  }
+
+.massage101Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.m101PContainer > p {
+  font-size: 2rem;
+}
+
+.m101PContainer {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2rem;
+  width: initial;
+  color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient( to bottom, #8fd0b4, rgba(0, 0, 0, 0) ) 1 100%;
+  flex-direction: column;
+  align-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .massage101__list__wrapper > ul {
+    font-size: 2rem;
+  }
+  .m101Closing {
+    margin-bottom: 7rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .m101PContainer > p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .m101PContainer > p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.m101HeadlineWrap > h3 {
+  margin-top: 4rem;
+  font-size: 2rem;
+  margin-left: -5%;
+  }
+  .massage101__list__wrapper > ul {
+    font-size: 1rem;
+  }
+  .m101Closing {
+    font-size: 1rem;
+  }
+  .m101PContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .m101PContainer > p {
+    font-size: 1rem;
+  }
+}

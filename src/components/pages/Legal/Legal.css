@@ -21,16 +21,20 @@
 .termsOfService, .adapolicy {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.adapolicy, .termsOfService, .privacypolicy > p {
+.termsOfService, .privacypolicy > p {
     display: flex;
     margin: 2rem; 
     font-size:medium;
 }
 
+.terms__container {
+    width: auto;
+}
 
 .privacy__container {
     margin: 6rem;
@@ -43,6 +47,7 @@
 .commitment__container > p {
     font-size: larger;
     display: flex;
+    flex-direction: column;
 }
 
 .ada__contact__container > p {
@@ -52,27 +57,40 @@
     margin-bottom: 2rem;;
 }
 
-
-/* .update__container,
-.policy__info__container,
-.int__and__def__container,
-.collection___and__usage__container,
-.tracking__and__cookies__container,
-.personal__data__contianer,
-.links__container,
-.changes__container,
-.privacy__contact__container
- {
-    margin-bottom: 2rem;
-   
-} */
+.adapolicy {
+    width: atuo;
+}
 
 
 @media screen and (max-width: 768px) {
     .ada__contact__container {
     margin: 3rem;
 }
+    .termsText__container > p {
+        display: flex;
+        width: 75%;
+    }
 }
+
+@media screen and (max-width: 1024px) {
+    .commitment__container {
+        margin: 1rem;
+        }
+    .commitment__container > p {
+        width: 100%;
+        font-size: 2rem;
+    }
+    .ada__contact__container > p {
+        font-size: 2rem;
+    }
+    .commitment__container, .ada__contact__container > h4 {
+        font-size: 2rem;
+    }
+    .terms__container {
+        margin: .5rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .adapolicy> h3 {
         font-size: 2rem;
@@ -81,14 +99,40 @@
         margin: 3rem;
     }
     .commitment__container {
-        width: 100%;
-        display: block;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
     .commitment__container > p {
-        width: 100%;
         font-size:medium;
     }
     .terms__container {
-        margin: 2rem;
+        margin: 1rem;
+    }
+    .ada__contact__container > p {
+        font-size: 1rem;
+    }
+    .ada__container {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+    .commitment__container, .ada__contact__container > h4 {
+        font-size: 1rem;
+    }
+    .ada__contact__container {
+        margin: 1rem;
+    }
+    .termsText__container{
+        width: 75%;
+    }
+    .termsText__container > p{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+    .termsOfService {
+        width: 50%;
     }
 }
