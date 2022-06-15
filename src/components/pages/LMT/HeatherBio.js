@@ -13,17 +13,18 @@ function HeatherBio() {
     <>
     <div className='Heather__wrapper'>
       <div className='HeatherTitleWrap'>
+      <div className="Heather__pic__container">
+              <img className='Heather__pic' src={Heather} alt='Heather'></img>
+        </div>   
+      <div className='HeatherNameWrap'>
+            <h3>Heather Fowler,</h3>
+      </div>
           <div className='HeatherOwnerWrap'>
                 <h1> Owner</h1>
           </div>
-          <div className='HeatherNameWrap'>
-            <h3>Heather Fowler,</h3>
-          </div>
       </div>
     <div className='flexWrapBio'>
-      <div className="Heather__pic__container">
-              <img className='Heather__pic' src={Heather} alt='Heather'></img>
-        </div>      
+   
         <div className='Heather__bio__wrapper'>
         
             <div className='Heather__bio__container'>
