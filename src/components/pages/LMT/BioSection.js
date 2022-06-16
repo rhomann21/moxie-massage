@@ -14,6 +14,7 @@ function BioSection() {
             <div className='bioSectionWrapper'>
             </div>
          </div>
+
       </>
     );
   }

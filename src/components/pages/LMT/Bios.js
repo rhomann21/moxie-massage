@@ -17,7 +17,7 @@ function Bios() {
            <BioSection />
       <div className='bio__container'>
             <HeatherBio />
-            <KendraBio />
+            {/* <KendraBio /> */}
             <MargieBio />
       </div>
     </>
