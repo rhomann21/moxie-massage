@@ -12,7 +12,7 @@ export default function WhatWeDo()
   
     return (
       <><div><h1 className='wwd'>What We Do </h1></div>
-      <div className='wwdMainWrapper'>
+      {/* <div className='wwdMainWrapper'> */}
         <div className='wwdTitleWrap'>
             <div className='moxMassageWrap'>
               <h3>Moxie Massage</h3>
@@ -31,7 +31,7 @@ export default function WhatWeDo()
 
                 <p>Whether you are in need of Swedish Massage, Deep Tissue, Hot Stone, Tui Na, Thai, Reflexology, or Body Treatments such as our slimming seaweed and chocolate wraps, we thank you for making us your favorite place to unwind.</p>
             </div>
-        </div>
+        {/* </div> */}
         </div>
       </>
     );
